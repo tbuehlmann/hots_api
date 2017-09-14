@@ -1,0 +1,95 @@
+{
+  "id": 1,
+  "filename": "725ba498-2728-d326-b6ac-11129c55b212",
+  "size": 2091307,
+  "game_type": "HeroLeague",
+  "game_date": "2017-08-27 13:43:09",
+  "game_length": 1288,
+  "game_map": "Warhead Junction",
+  "game_version": "2.27.2.56705",
+  "region": 2,
+  "fingerprint": "725ba498-2728-26d3-b6ac-11129c55b212",
+  "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/725ba498-2728-d326-b6ac-11129c55b212.StormReplay",
+  "players": [
+    {
+      "battletag": "Nirien",
+      "hero": "Malthael",
+      "hero_level": 5,
+      "team": 0,
+      "winner": false,
+      "blizz_id": 200573
+    },
+    {
+      "battletag": "xMarisMx",
+      "hero": "Garrosh",
+      "hero_level": 5,
+      "team": 0,
+      "winner": false,
+      "blizz_id": 1204693
+    },
+    {
+      "battletag": "Rustedheart",
+      "hero": "Auriel",
+      "hero_level": 6,
+      "team": 0,
+      "winner": false,
+      "blizz_id": 584579
+    },
+    {
+      "battletag": "Seal",
+      "hero": "Muradin",
+      "hero_level": 12,
+      "team": 0,
+      "winner": false,
+      "blizz_id": 726041
+    },
+    {
+      "battletag": "Noprenoany",
+      "hero": "Nazeebo",
+      "hero_level": 6,
+      "team": 0,
+      "winner": false,
+      "blizz_id": 10380885
+    },
+    {
+      "battletag": "TheBoss",
+      "hero": "Tyrande",
+      "hero_level": 15,
+      "team": 1,
+      "winner": true,
+      "blizz_id": 11390788
+    },
+    {
+      "battletag": "HunterPro",
+      "hero": "Varian",
+      "hero_level": 15,
+      "team": 1,
+      "winner": true,
+      "blizz_id": 9844126
+    },
+    {
+      "battletag": "LordXep",
+      "hero": "Tychus",
+      "hero_level": 17,
+      "team": 1,
+      "winner": true,
+      "blizz_id": 6645310
+    },
+    {
+      "battletag": "Ferazul",
+      "hero": "Johanna",
+      "hero_level": 6,
+      "team": 1,
+      "winner": true,
+      "blizz_id": 639141
+    },
+    {
+      "battletag": "crow",
+      "hero": "Kharazim",
+      "hero_level": 20,
+      "team": 1,
+      "winner": true,
+      "blizz_id": 2704224
+    }
+  ]
+}
