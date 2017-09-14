@@ -56,7 +56,7 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
 
   describe '#minimum_supported_build' do
     it 'returns a positive number' do
-      expect(subject.minimum_supported_build).to be_positive
+      expect(subject.minimum_supported_build).to be > 0
     end
   end
 

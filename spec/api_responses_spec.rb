@@ -115,7 +115,7 @@ RSpec.describe 'API v1' do
   describe 'minimum_supported_build' do
     it 'GET /replays/min-build returns a build' do
       response = HTTP.get('http://hotsapi.net/api/v1/replays/min-build')
-      expect(response.to_s.to_i).to be_positive
+      expect(response.to_s.to_i).to be > 0
     end
   end
 
