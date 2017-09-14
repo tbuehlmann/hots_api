@@ -1,5 +1,7 @@
 # HotsApi
 
+[![Build Status](https://travis-ci.org/tbuehlmann/hots_api.svg?branch=master)](https://travis-ci.org/tbuehlmann/hots_api)
+
 TODO
 
 ## Installation
