@@ -32,7 +32,7 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on [https://github.com/tbuehlmann/hots_api](GitHub).
+Bug reports and pull requests are welcome on [GitHub](https://github.com/tbuehlmann/hots_api).
 
 ## License
 
