@@ -15,8 +15,8 @@ RSpec.describe HotsApi do
   end
 
   it '.post delegates to the fetcher' do
-    expect(subject.fetcher).to receive('post').with('some-path', body: 'some-body')
-    subject.post('some-path', body: 'some-body')
+    expect(subject.fetcher).to receive('post').with('some-path', body: 'some-body', file: '/some/file')
+    subject.post('some-path', body: 'some-body', file: '/some/file')
   end
 
   it '.replays returns a replay repository' do
