@@ -5,12 +5,12 @@ module HotsApi
     class MapTranslationRepository < Repository
       private
 
-      def fetch_records
-        response = HotsApi.get('maps/translations')
+      def path
+       'maps/translations'
+      end
 
-        response.parse.map do |map_translation|
-          Models::MapTranslation.new(map_translation)
-        end
+      def model
+        Models::MapTranslation
       end
     end
   end
