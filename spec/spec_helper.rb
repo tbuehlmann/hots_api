@@ -1,5 +1,7 @@
-require 'bundler/require'
+require 'bundler/setup'
 require 'hots_api'
+
+Bundler.require
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
