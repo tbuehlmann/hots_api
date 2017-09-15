@@ -1,6 +1,4 @@
-require 'bundler/setup'
-require 'rspec/collection_matchers'
-require 'pry'
+require 'bundler/require'
 require 'hots_api'
 
 RSpec.configure do |config|
