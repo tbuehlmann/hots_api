@@ -18,7 +18,7 @@ module HotsApi
       end
 
       def where(conditions = {})
-        spawn do |repository|
+        spawn do
           conditions.each do |attribute, value|
             if respond_to?("#{attribute}=", true)
               send("#{attribute}=", value)
