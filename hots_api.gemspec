@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Tobias Bühlmann']
   spec.email         = ['tobias@xn--bhlmann-n2a.de']
 
-  spec.summary       = 'Write a short summary, because Rubygems requires one.'
-  spec.description   = 'Write a longer description or delete this line.'
+  spec.summary       = 'Client library for the hotsapi.net API'
+  spec.description   = 'hots_api is a client library for the Heroes of the Storm replay metadata API hotsapi.net.'
   spec.homepage      = 'https://github.com/tbuehlmann/hots_api'
   spec.license       = 'MIT'
 
