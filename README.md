@@ -85,7 +85,16 @@ replays = HotsApi.replays.where(start_date: '2017-09-01 00:00').with_players.to_
 
 #### Pagination
 
-The API returns a maximum of 100 replays per request. If you want to retrieve all replays for a given query, use `find_each`:
+The API returns a maximum of 100 replays per request. If you want to retrieve the second page (or the next 100 replays) for a given query:
+
+```ruby
+first_page = HotsApi.replays
+second_page = first_page.next_page
+```
+
+Internally, this will set the appropriate `min_id` to the query. If there's no next page, calling `next_page` will return `nil`.
+
+If you want to retrieve all replays for a given query, use `find_each`:
 
 ```ruby
 HotsApi.replays.where(start_date: '2017-09-01 00:00', end_date: '2017-09-01 23:59').find_each do |replay|
