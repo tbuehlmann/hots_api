@@ -9,7 +9,7 @@ HotsApi is an API client for the Heroes of the Storm replay metadata API [hotsap
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hots_api', github: 'tbuehlmann/hots_api'
+gem 'hots_api'
 ```
 
 And then execute:
