@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tbuehlmann/hots_api.svg?branch=master)](https://travis-ci.org/tbuehlmann/hots_api)
 
-HotsApi is an API client for the Heroes of the Storm replay metadata API [hotsapi.net](http://hotsapi.net/). It consumes the API and lets you retrieve information about uploaded replays.
+HotsApi is an API client for the Heroes of the Storm replay metadata API [hotsapi.net](https://hotsapi.net/). It consumes the API and lets you retrieve information about uploaded replays.
 
 ## Installation
 

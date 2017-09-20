@@ -10,13 +10,13 @@ module HotsApi
 
     def get(path, params: {})
       with_retrying do
-        HTTP.get("http://hotsapi.net/api/v1/#{path}", params: params)
+        HTTP.get("#{base_path}/#{path}", params: params)
       end
     end
 
     def post(path, body: nil, file: nil)
       with_retrying do
-        HTTP.post("http://hotsapi.net/api/v1/#{path}", post_options_for(body: body, file: file))
+        HTTP.post("#{base_path}/#{path}", post_options_for(body: body, file: file))
       end
     end
 
@@ -27,6 +27,10 @@ module HotsApi
         options[:body] = body if body
         options[:form] = {file: HTTP::FormData::File.new(file)} if file
       end
+    end
+
+    def base_path
+      'https://hotsapi.net/api/v1'
     end
 
     def with_retrying(tries: 10)
