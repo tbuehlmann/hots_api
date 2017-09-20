@@ -4,22 +4,22 @@ module HotsApi
   module Repositories
     class ReplayRepository < Repository
       def upload(file)
-        response = HotsApi.post('replays', file: file)
+        response = HotsApi.post(path, file: file)
         Models::UploadedReplay.new(response.parse)
       end
 
       def trigger_hotslogs_upload(fingerprint)
-        HotsApi.get("replays/fingerprints/v3/#{fingerprint}", params: {uploadToHotslogs: 1}).parse['exists']
+        HotsApi.get("#{path}/fingerprints/v3/#{fingerprint}", params: {uploadToHotslogs: 1}).parse['exists']
       end
 
       def fingerprint_uploaded?(fingerprint)
-        HotsApi.get("replays/fingerprints/v3/#{fingerprint}").parse['exists']
+        HotsApi.get("#{path}/fingerprints/v3/#{fingerprint}").parse['exists']
       end
 
       def fingerprints_uploaded?(fingerprints)
         return {} if fingerprints.empty?
 
-        upload_statuses = HotsApi.post('replays/fingerprints', body: fingerprints.join("\n")).parse
+        upload_statuses = HotsApi.post("#{path}/fingerprints", body: fingerprints.join("\n")).parse
 
         {}.tap do |fingerprint_statuses|
           upload_statuses['exists'].each do |fingerprint|
@@ -33,7 +33,7 @@ module HotsApi
       end
 
       def minimum_supported_build
-        HotsApi.get('replays/min-build').to_s.to_i
+        HotsApi.get("#{path}/min-build").to_s.to_i
       end
 
       def with_players
