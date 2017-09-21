@@ -146,4 +146,17 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
       end
     end
   end
+
+  describe '#page(number)' do
+    it 'paginates replays' do
+      first_page_max_id = subject.map(&:id).max
+      second_page = subject.page(2).to_a
+
+      expect(second_page).to have(100).replays
+
+      second_page.each do |replay|
+        expect(replay.id).to be > first_page_max_id
+      end
+    end
+  end
 end

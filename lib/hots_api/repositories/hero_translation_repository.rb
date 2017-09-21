@@ -2,15 +2,15 @@
 
 module HotsApi
   module Repositories
-    class HeroTranslationRepository < Repository
+    class HeroTranslationRepository < SimpleRepository
       private
 
-      def path
-        'heroes/translations'
+      def instantiate_record_for(attributes)
+        Models::HeroTranslation.new(attributes)
       end
 
-      def model
-        Models::HeroTranslation
+      def collection_path
+        'heroes/translations'
       end
     end
   end

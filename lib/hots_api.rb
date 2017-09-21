@@ -11,6 +11,7 @@ require_relative 'hots_api/models/replay'
 require_relative 'hots_api/models/uploaded_replay'
 
 require_relative 'hots_api/repositories/repository'
+require_relative 'hots_api/repositories/simple_repository'
 require_relative 'hots_api/repositories/hero_translation_repository'
 require_relative 'hots_api/repositories/map_translation_repository'
 require_relative 'hots_api/repositories/replay_repository'
