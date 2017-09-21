@@ -2,15 +2,15 @@
 
 module HotsApi
   module Repositories
-    class MapTranslationRepository < Repository
+    class MapTranslationRepository < SimpleRepository
       private
 
-      def path
-       'maps/translations'
+      def instantiate_record_for(attributes)
+        Models::MapTranslation.new(attributes)
       end
 
-      def model
-        Models::MapTranslation
+      def collection_path
+       'maps/translations'
       end
     end
   end

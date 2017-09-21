@@ -5,20 +5,20 @@ module HotsApi
     class Repository
       include Enumerable
 
-      def initialize_copy(_original)
-        @records = nil
+      def initialize(where_values: {})
+        @where_values = where_values
       end
 
       def find(id)
-        response = HotsApi.get("#{path}/#{id}")
+        response = HotsApi.get("#{object_path}/#{id}")
 
         if response.status.ok?
-          model.new(response.parse)
+          instantiate_record_for(response.parse)
         end
       end
 
       def where(conditions = {})
-        spawn do
+        copy do
           conditions.each do |attribute, value|
             if respond_to?("#{attribute}=", true)
               send("#{attribute}=", value)
@@ -29,14 +29,40 @@ module HotsApi
         end
       end
 
+      def page(number = nil)
+        if number
+          copy { @where_values[:page] = number }
+        else
+          @where_values.fetch(:page, 1)
+        end
+      end
+
+      def previous_page
+        if page == 1
+          self
+        else
+          copy { @where_values[:page] = page - 1 }
+        end
+      end
+
       def next_page
-        if records.any?
-          where(min_id: records.last.id + 1)
+        copy { @where_values[:page] = page + 1 }
+      end
+
+      def pages
+        fetch { @pages }
+      end
+
+      def count(&block)
+        if block_given?
+          fetch { @records.count(&block) }
+        else
+          fetch { @count }
         end
       end
 
       def each(&block)
-        records.each(&block)
+        fetch { @records.each(&block) }
       end
 
       def find_each(&block)
@@ -44,16 +70,51 @@ module HotsApi
       end
 
       def last(n = nil)
-        n ? records.last(n) : records.last
+        fetch { n ? @records.last(n) : @records.last }
       end
 
-      def spawn(&block)
-        clone.tap do |repository|
+      def size
+        fetch { @records.size }
+      end
+
+      def length
+        fetch { @records.length }
+      end
+
+      private
+
+      def page=(number)
+        @where_values[:page] = number
+      end
+
+      def copy(&block)
+        self.class.new(where_values: @where_values.clone, &block).tap do |repository|
           repository.instance_exec(&block)
         end
       end
 
-      private
+      def fetched?
+        @fetched
+      end
+
+      def fetch
+        unless @fetched
+          response = HotsApi.get(collection_path, params: @where_values)
+          handle(response.parse)
+
+          @fetched = true
+        end
+
+        yield
+      end
+
+      def handle(json)
+        @records = instantiate_records_for(json)
+        @where_values[:page] = json['page']
+
+        @pages = json['page_count']
+        @count = json['total']
+      end
 
       def find_each_enum
         Enumerator.new do |yielder|
@@ -66,27 +127,25 @@ module HotsApi
         end
       end
 
-      def where_values
-        @where_values ||= {}
-      end
-
-      def records
-        @records ||= fetch_records
-      end
-
-      def fetch_records
-        response = HotsApi.get(path, params: where_values)
-
-        response.parse.map do |attributes|
-          model.new(attributes)
+      def instantiate_records_for(json)
+        json[pluralized_model_name].map do |attributes|
+          instantiate_record_for(attributes)
         end
       end
 
-      def path
+      def pluralized_model_name
         raise NotImplementedError
       end
 
-      def model
+      def instantiate_record_for(attributes)
+        raise NotImplementedError
+      end
+
+      def object_path
+        raise NotImplementedError
+      end
+
+      def collection_path
         raise NotImplementedError
       end
     end
