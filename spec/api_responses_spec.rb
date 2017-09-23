@@ -3,60 +3,53 @@ require 'spec_helper'
 # These specs make sure we're up to date with API responses
 RSpec.describe 'API v1' do
   describe 'replays' do
-    it 'GET /replays/paged returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged')
-      expect(response.parse['replays']).to eq(api_response_for('replays'))
+    it 'GET /replays returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays')
+      expect(response.parse).to eq(api_response_for('replays'))
     end
 
-    it 'GET /replays/paged?start_date=2017-09-01 returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?start_date=2017-09-01')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_start_date'))
+    it 'GET /replays?start_date=2017-09-01 returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?start_date=2017-09-01')
+      expect(response.parse).to eq(api_response_for('replays_with_start_date'))
     end
 
-    it 'GET /replays/paged?end_date=2017-07-01 returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?end_date=2017-07-01')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_end_date'))
+    it 'GET /replays?end_date=2017-07-01 returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?end_date=2017-07-01')
+      expect(response.parse).to eq(api_response_for('replays_with_end_date'))
     end
 
-    it 'GET /replays/paged?game_map=Hanamura returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?game_map=Hanamura')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_game_map'))
+    it 'GET /replays?game_map=Hanamura returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?game_map=Hanamura')
+      expect(response.parse).to eq(api_response_for('replays_with_game_map'))
     end
 
-    it 'GET /replays/paged?game_type=HeroLeague returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?game_type=HeroLeague')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_game_type'))
+    it 'GET /replays?game_type=HeroLeague returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?game_type=HeroLeague')
+      expect(response.parse).to eq(api_response_for('replays_with_game_type'))
     end
 
-    it 'GET /replays/paged?min_id=500 returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?min_id=500')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_min_id'))
+    it 'GET /replays?min_id=500 returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?min_id=500')
+      expect(response.parse).to eq(api_response_for('replays_with_min_id'))
     end
 
-    it 'GET /replays/paged?player=Poma returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?player=Poma')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_player'))
+    it 'GET /replays?player=Poma returns replays' do
+      skip 'deactivated on hotsapi.net right now'
+
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?player=Poma')
+      expect(response.parse).to eq(api_response_for('replays_with_player'))
     end
 
-    it 'GET /replays/paged?hero=Tassadar returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?hero=Tassadar')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_hero'))
+    it 'GET /replays?hero=Tassadar returns replays' do
+      skip 'deactivated on hotsapi.net right now'
+
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?hero=Tassadar')
+      expect(response.parse).to eq(api_response_for('replays_with_hero'))
     end
 
-    it 'GET /replays/paged?with_players=1 returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?with_players=1')
-      expect(response.parse['replays']).to eq(api_response_for('replays_with_players'))
-    end
-
-    it 'GET /replays/paged?page=2 returns replays' do
-      response = HTTP.get('https://hotsapi.net/api/v1/replays/paged?page=2')
-      parsed = response.parse
-
-      expect(parsed['per_page']).to eq(100)
-      expect(parsed['page']).to eq(2)
-      expect(parsed['page_count']).to be > 0
-      expect(parsed['total']).to be > 0
-      expect(parsed['replays']).to eq(api_response_for('replays_with_page')['replays'])
+    it 'GET /replays?with_players=1 returns replays' do
+      response = HTTP.get('https://hotsapi.net/api/v1/replays?with_players=1')
+      expect(response.parse).to eq(api_response_for('replays_with_players'))
     end
 
     it 'GET /replays/1 returns a replay' do

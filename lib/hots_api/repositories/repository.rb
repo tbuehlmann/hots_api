@@ -10,7 +10,7 @@ module HotsApi
       end
 
       def find(id)
-        response = HotsApi.get("#{object_path}/#{id}")
+        response = HotsApi.get("#{collection_path}/#{id}")
 
         if response.status.ok?
           instantiate_record_for(response.parse)
@@ -29,35 +29,11 @@ module HotsApi
         end
       end
 
-      def page(number = nil)
-        if number
-          copy { @where_values[:page] = number }
-        else
-          @where_values.fetch(:page, 1)
-        end
-      end
-
-      def previous_page
-        if page == 1
-          self
-        else
-          copy { @where_values[:page] = page - 1 }
-        end
-      end
-
       def next_page
-        copy { @where_values[:page] = page + 1 }
-      end
-
-      def pages
-        fetch { @pages }
-      end
-
-      def count(&block)
-        if block_given?
-          fetch { @records.count(&block) }
+        if @records.any?
+          where(min_id: @records.last.id + 1)
         else
-          fetch { @count }
+
         end
       end
 
@@ -83,10 +59,6 @@ module HotsApi
 
       private
 
-      def page=(number)
-        @where_values[:page] = number
-      end
-
       def copy(&block)
         self.class.new(where_values: @where_values.clone, &block).tap do |repository|
           repository.instance_exec(&block)
@@ -100,20 +72,12 @@ module HotsApi
       def fetch
         unless @fetched
           response = HotsApi.get(collection_path, params: @where_values)
-          handle(response.parse)
+          @records = instantiate_records(response.parse)
 
           @fetched = true
         end
 
         yield
-      end
-
-      def handle(json)
-        @records = instantiate_records_for(json)
-        @where_values[:page] = json['page']
-
-        @pages = json['page_count']
-        @count = json['total']
       end
 
       def find_each_enum
@@ -127,21 +91,13 @@ module HotsApi
         end
       end
 
-      def instantiate_records_for(json)
-        json[pluralized_model_name].map do |attributes|
-          instantiate_record_for(attributes)
+      def instantiate_records(json)
+        json.map do |attributes|
+          instantiate_record_with(attributes)
         end
       end
 
-      def pluralized_model_name
-        raise NotImplementedError
-      end
-
-      def instantiate_record_for(attributes)
-        raise NotImplementedError
-      end
-
-      def object_path
+      def instantiate_record_with(attributes)
         raise NotImplementedError
       end
 
