@@ -45,10 +45,6 @@ module HotsApi
 
       private
 
-      def records_page
-
-      end
-
       def start_date=(date)
         @where_values[:start_date] = date_string_for(date)
       end
@@ -81,20 +77,12 @@ module HotsApi
         end
       end
 
-      def instantiate_record_for(attributes)
+      def instantiate_record_with(attributes)
         Models::Replay.new(attributes)
       end
 
-      def pluralized_model_name
-        'replays'
-      end
-
-      def object_path
-        'replays'
-      end
-
       def collection_path
-        'replays/paged'
+        'replays'
       end
     end
   end

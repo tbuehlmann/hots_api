@@ -116,6 +116,8 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
     end
 
     it 'filters by player' do
+      skip 'deactivated on hotsapi.net right now'
+
       replays = subject.with_players.where(player: 'Poma').to_a
       expect(replays).to have(100).replays
 
@@ -126,6 +128,8 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
     end
 
     it 'filters by hero' do
+      skip 'deactivated on hotsapi.net right now'
+
       replays = subject.with_players.where(hero: 'Tassadar').to_a
       expect(replays).to have(100).replays
 
@@ -143,19 +147,6 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
 
       replays.each do |replay|
         expect(replay.players).to have(10).players
-      end
-    end
-  end
-
-  describe '#page(number)' do
-    it 'paginates replays' do
-      first_page_max_id = subject.map(&:id).max
-      second_page = subject.page(2).to_a
-
-      expect(second_page).to have(100).replays
-
-      second_page.each do |replay|
-        expect(replay.id).to be > first_page_max_id
       end
     end
   end
