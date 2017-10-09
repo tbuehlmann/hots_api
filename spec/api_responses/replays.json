@@ -5,12 +5,15 @@
     "size": 2091307,
     "game_type": "HeroLeague",
     "game_date": "2017-08-27 13:43:09",
-    "game_length": 1288,
     "game_map": "Warhead Junction",
+    "game_length": 1288,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "725ba498-2728-26d3-b6ac-11129c55b212",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/725ba498-2728-d326-b6ac-11129c55b212.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/725ba498-2728-d326-b6ac-11129c55b212.StormReplay",
+    "created_at": "2017-08-27 14:51:18",
+    "updated_at": "2017-10-04 01:21:25"
   },
   {
     "id": 2,
@@ -18,12 +21,15 @@
     "size": 1315120,
     "game_type": "UnrankedDraft",
     "game_date": "2017-08-27 07:36:52",
-    "game_length": 844,
     "game_map": "Towers of Doom",
+    "game_length": 844,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "737895dc-dae3-74fa-53e0-8c565814c966",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/737895dc-dae3-fa74-53e0-8c565814c966.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/737895dc-dae3-fa74-53e0-8c565814c966.StormReplay",
+    "created_at": "2017-08-27 14:51:20",
+    "updated_at": "2017-10-04 01:21:27"
   },
   {
     "id": 3,
@@ -31,12 +37,15 @@
     "size": 1480401,
     "game_type": "QuickMatch",
     "game_date": "2017-08-27 07:18:46",
-    "game_length": 966,
     "game_map": "Tomb of the Spider Queen",
+    "game_length": 966,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "e584439c-b4bd-e161-90e2-f63675e726f7",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e584439c-b4bd-61e1-90e2-f63675e726f7.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e584439c-b4bd-61e1-90e2-f63675e726f7.StormReplay",
+    "created_at": "2017-08-27 14:51:22",
+    "updated_at": "2017-10-04 01:21:30"
   },
   {
     "id": 4,
@@ -44,12 +53,15 @@
     "size": 1483972,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 18:57:28",
-    "game_length": 892,
     "game_map": "Towers of Doom",
+    "game_length": 892,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "a43451de-5348-b100-ba3d-60fdf1b63102",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a43451de-5348-00b1-ba3d-60fdf1b63102.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a43451de-5348-00b1-ba3d-60fdf1b63102.StormReplay",
+    "created_at": "2017-08-27 14:51:45",
+    "updated_at": "2017-10-04 01:21:32"
   },
   {
     "id": 5,
@@ -57,12 +69,15 @@
     "size": 1607856,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 18:33:07",
-    "game_length": 917,
     "game_map": "Blackheart's Bay",
+    "game_length": 917,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "8d30eca9-47c0-6ba7-2361-056f285bd299",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/8d30eca9-47c0-a76b-2361-056f285bd299.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/8d30eca9-47c0-a76b-2361-056f285bd299.StormReplay",
+    "created_at": "2017-08-27 14:51:46",
+    "updated_at": "2017-10-04 01:21:35"
   },
   {
     "id": 6,
@@ -70,12 +85,15 @@
     "size": 1846019,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 17:09:55",
-    "game_length": 1018,
     "game_map": "Braxis Holdout",
+    "game_length": 1018,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "a72631a3-a03d-f382-5e46-b8428be0b28d",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a72631a3-a03d-82f3-5e46-b8428be0b28d.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a72631a3-a03d-82f3-5e46-b8428be0b28d.StormReplay",
+    "created_at": "2017-08-27 14:51:51",
+    "updated_at": "2017-10-04 01:21:37"
   },
   {
     "id": 7,
@@ -83,12 +101,15 @@
     "size": 1680670,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 16:04:51",
-    "game_length": 1136,
     "game_map": "Blackheart's Bay",
+    "game_length": 1136,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "97c80087-8b01-05db-6bf0-b930c0e21e7b",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/97c80087-8b01-db05-6bf0-b930c0e21e7b.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/97c80087-8b01-db05-6bf0-b930c0e21e7b.StormReplay",
+    "created_at": "2017-08-27 14:51:54",
+    "updated_at": "2017-10-04 01:21:40"
   },
   {
     "id": 8,
@@ -96,12 +117,15 @@
     "size": 1901755,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 15:38:05",
-    "game_length": 1188,
     "game_map": "Cursed Hollow",
+    "game_length": 1188,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "826d417c-6fa2-6b73-da4c-78433e4c4328",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/826d417c-6fa2-736b-da4c-78433e4c4328.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/826d417c-6fa2-736b-da4c-78433e4c4328.StormReplay",
+    "created_at": "2017-08-27 14:51:55",
+    "updated_at": "2017-10-04 01:21:43"
   },
   {
     "id": 9,
@@ -109,12 +133,15 @@
     "size": 2001678,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 15:10:37",
-    "game_length": 1065,
     "game_map": "Braxis Holdout",
+    "game_length": 1065,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "4370a385-7b73-9e22-dfc3-6f11b6de5bef",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4370a385-7b73-229e-dfc3-6f11b6de5bef.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4370a385-7b73-229e-dfc3-6f11b6de5bef.StormReplay",
+    "created_at": "2017-08-27 14:51:57",
+    "updated_at": "2017-10-04 01:21:46"
   },
   {
     "id": 10,
@@ -122,12 +149,15 @@
     "size": 1415516,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 13:48:53",
-    "game_length": 855,
     "game_map": "Towers of Doom",
+    "game_length": 855,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "c063591c-effc-89f2-5e83-8f73d448b152",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c063591c-effc-f289-5e83-8f73d448b152.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c063591c-effc-f289-5e83-8f73d448b152.StormReplay",
+    "created_at": "2017-08-27 14:52:01",
+    "updated_at": "2017-10-04 01:21:48"
   },
   {
     "id": 11,
@@ -135,12 +165,15 @@
     "size": 1262187,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 13:29:15",
-    "game_length": 807,
     "game_map": "Warhead Junction",
+    "game_length": 807,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "a0cdfcd1-1228-0325-3fb9-9ebd017aaf2b",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a0cdfcd1-1228-2503-3fb9-9ebd017aaf2b.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a0cdfcd1-1228-2503-3fb9-9ebd017aaf2b.StormReplay",
+    "created_at": "2017-08-27 14:52:03",
+    "updated_at": "2017-10-04 01:21:50"
   },
   {
     "id": 12,
@@ -148,12 +181,15 @@
     "size": 1767829,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 13:05:44",
-    "game_length": 936,
     "game_map": "Dragon Shire",
+    "game_length": 936,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "d95d57e7-b27d-4874-c746-9228a8db895e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d95d57e7-b27d-7448-c746-9228a8db895e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d95d57e7-b27d-7448-c746-9228a8db895e.StormReplay",
+    "created_at": "2017-08-27 14:52:04",
+    "updated_at": "2017-10-04 01:21:53"
   },
   {
     "id": 13,
@@ -161,12 +197,15 @@
     "size": 1664848,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 12:44:39",
-    "game_length": 1022,
     "game_map": "Blackheart's Bay",
+    "game_length": 1022,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "4d60f27e-7ae3-c3cb-9bfd-13005bc43935",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4d60f27e-7ae3-cbc3-9bfd-13005bc43935.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4d60f27e-7ae3-cbc3-9bfd-13005bc43935.StormReplay",
+    "created_at": "2017-08-27 14:54:11",
+    "updated_at": "2017-10-04 01:21:56"
   },
   {
     "id": 14,
@@ -174,12 +213,15 @@
     "size": 1779779,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 12:15:31",
-    "game_length": 1064,
     "game_map": "Garden of Terror",
+    "game_length": 1064,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "5be0c161-b599-3ce7-2268-e54b99001c42",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5be0c161-b599-e73c-2268-e54b99001c42.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5be0c161-b599-e73c-2268-e54b99001c42.StormReplay",
+    "created_at": "2017-08-27 14:54:12",
+    "updated_at": "2017-10-04 01:21:58"
   },
   {
     "id": 15,
@@ -187,12 +229,15 @@
     "size": 1912734,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 11:12:04",
-    "game_length": 1164,
     "game_map": "Towers of Doom",
+    "game_length": 1164,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "2c4a66d8-a8a8-ae4e-bd2f-6b6deea3fc41",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2c4a66d8-a8a8-4eae-bd2f-6b6deea3fc41.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2c4a66d8-a8a8-4eae-bd2f-6b6deea3fc41.StormReplay",
+    "created_at": "2017-08-27 14:54:15",
+    "updated_at": "2017-10-04 01:22:01"
   },
   {
     "id": 16,
@@ -200,12 +245,15 @@
     "size": 2036071,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 10:38:03",
-    "game_length": 1191,
     "game_map": "Dragon Shire",
+    "game_length": 1191,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "0d3ed6e7-c109-f263-55ef-3a8a5ab456d6",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0d3ed6e7-c109-63f2-55ef-3a8a5ab456d6.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0d3ed6e7-c109-63f2-55ef-3a8a5ab456d6.StormReplay",
+    "created_at": "2017-08-27 14:54:18",
+    "updated_at": "2017-10-04 01:22:04"
   },
   {
     "id": 17,
@@ -213,12 +261,15 @@
     "size": 2027484,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 10:12:27",
-    "game_length": 1185,
     "game_map": "Warhead Junction",
+    "game_length": 1185,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "c9546497-95b3-4fe6-7108-ef1f93d0b806",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c9546497-95b3-e64f-7108-ef1f93d0b806.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c9546497-95b3-e64f-7108-ef1f93d0b806.StormReplay",
+    "created_at": "2017-08-27 14:54:20",
+    "updated_at": "2017-10-04 01:22:07"
   },
   {
     "id": 18,
@@ -226,12 +277,15 @@
     "size": 1915017,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 09:42:40",
-    "game_length": 1043,
     "game_map": "Dragon Shire",
+    "game_length": 1043,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "30972728-0cae-c5eb-7c30-dcd174482aaa",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/30972728-0cae-ebc5-7c30-dcd174482aaa.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/30972728-0cae-ebc5-7c30-dcd174482aaa.StormReplay",
+    "created_at": "2017-08-27 14:54:22",
+    "updated_at": "2017-10-04 01:22:10"
   },
   {
     "id": 19,
@@ -239,12 +293,15 @@
     "size": 2093111,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 10:03:21",
-    "game_length": 1221,
     "game_map": "Braxis Holdout",
+    "game_length": 1221,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "d99b078b-2202-13b8-bd12-87a625a5b986",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d99b078b-2202-b813-bd12-87a625a5b986.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d99b078b-2202-b813-bd12-87a625a5b986.StormReplay",
+    "created_at": "2017-08-27 14:54:48",
+    "updated_at": "2017-10-04 01:22:13"
   },
   {
     "id": 20,
@@ -252,12 +309,15 @@
     "size": 2029433,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 07:48:59",
-    "game_length": 1042,
     "game_map": "Braxis Holdout",
+    "game_length": 1042,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "293cc684-5218-b68c-8626-8ecbb569981e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/293cc684-5218-8cb6-8626-8ecbb569981e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/293cc684-5218-8cb6-8626-8ecbb569981e.StormReplay",
+    "created_at": "2017-08-27 14:57:39",
+    "updated_at": "2017-10-04 01:22:16"
   },
   {
     "id": 21,
@@ -265,12 +325,15 @@
     "size": 1992009,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 06:49:38",
-    "game_length": 1224,
     "game_map": "Warhead Junction",
+    "game_length": 1224,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "c5ea6c68-49ae-f69d-e4da-b25a88c5566f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c5ea6c68-49ae-9df6-e4da-b25a88c5566f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c5ea6c68-49ae-9df6-e4da-b25a88c5566f.StormReplay",
+    "created_at": "2017-08-27 14:57:42",
+    "updated_at": "2017-10-04 01:22:19"
   },
   {
     "id": 22,
@@ -278,12 +341,15 @@
     "size": 1312198,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 06:20:00",
-    "game_length": 753,
     "game_map": "Sky Temple",
+    "game_length": 753,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "cbe0232d-7527-0228-f045-f40bbc8a4f03",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cbe0232d-7527-2802-f045-f40bbc8a4f03.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cbe0232d-7527-2802-f045-f40bbc8a4f03.StormReplay",
+    "created_at": "2017-08-27 14:57:44",
+    "updated_at": "2017-10-04 01:22:21"
   },
   {
     "id": 23,
@@ -291,12 +357,15 @@
     "size": 1782859,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 05:59:39",
-    "game_length": 1083,
     "game_map": "Battlefield of Eternity",
+    "game_length": 1083,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "6b9ca528-6b13-d205-4294-b594151af07f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6b9ca528-6b13-05d2-4294-b594151af07f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6b9ca528-6b13-05d2-4294-b594151af07f.StormReplay",
+    "created_at": "2017-08-27 14:57:45",
+    "updated_at": "2017-10-04 01:22:24"
   },
   {
     "id": 24,
@@ -304,12 +373,15 @@
     "size": 2022995,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 04:45:28",
-    "game_length": 1063,
     "game_map": "Dragon Shire",
+    "game_length": 1063,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "28c23c82-f399-a7d1-5ffd-f59db3618083",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/28c23c82-f399-d1a7-5ffd-f59db3618083.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/28c23c82-f399-d1a7-5ffd-f59db3618083.StormReplay",
+    "created_at": "2017-08-27 14:57:49",
+    "updated_at": "2017-10-04 01:22:26"
   },
   {
     "id": 25,
@@ -317,12 +389,15 @@
     "size": 1648258,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 04:22:12",
-    "game_length": 935,
     "game_map": "Braxis Holdout",
+    "game_length": 935,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "2f591dfb-9cb3-9246-0002-40267b9dae8a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2f591dfb-9cb3-4692-0002-40267b9dae8a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2f591dfb-9cb3-4692-0002-40267b9dae8a.StormReplay",
+    "created_at": "2017-08-27 14:57:50",
+    "updated_at": "2017-10-04 01:22:29"
   },
   {
     "id": 26,
@@ -330,12 +405,15 @@
     "size": 1892930,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 03:57:33",
-    "game_length": 1131,
     "game_map": "Towers of Doom",
+    "game_length": 1131,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "89d30419-b5b9-9d98-3776-fbd0a99de651",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/89d30419-b5b9-989d-3776-fbd0a99de651.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/89d30419-b5b9-989d-3776-fbd0a99de651.StormReplay",
+    "created_at": "2017-08-27 14:57:52",
+    "updated_at": "2017-10-04 01:22:32"
   },
   {
     "id": 27,
@@ -343,12 +421,15 @@
     "size": 1895373,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 03:30:12",
-    "game_length": 1128,
     "game_map": "Warhead Junction",
+    "game_length": 1128,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "d354b894-f669-93b1-781b-c87b47deed1c",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d354b894-f669-b193-781b-c87b47deed1c.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d354b894-f669-b193-781b-c87b47deed1c.StormReplay",
+    "created_at": "2017-08-27 14:57:53",
+    "updated_at": "2017-10-04 01:22:35"
   },
   {
     "id": 28,
@@ -356,12 +437,15 @@
     "size": 1839228,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 03:05:47",
-    "game_length": 1065,
     "game_map": "Sky Temple",
+    "game_length": 1065,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "b4e55282-8e6d-342a-6030-a835b06423a7",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b4e55282-8e6d-2a34-6030-a835b06423a7.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b4e55282-8e6d-2a34-6030-a835b06423a7.StormReplay",
+    "created_at": "2017-08-27 14:57:55",
+    "updated_at": "2017-10-04 01:22:37"
   },
   {
     "id": 29,
@@ -369,12 +453,15 @@
     "size": 1431948,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 02:36:19",
-    "game_length": 762,
     "game_map": "Cursed Hollow",
+    "game_length": 762,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "a7281469-0e88-894b-cd5d-b02f2a985744",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a7281469-0e88-4b89-cd5d-b02f2a985744.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a7281469-0e88-4b89-cd5d-b02f2a985744.StormReplay",
+    "created_at": "2017-08-27 14:57:56",
+    "updated_at": "2017-10-05 02:29:26"
   },
   {
     "id": 30,
@@ -382,12 +469,15 @@
     "size": 1572120,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 02:13:12",
-    "game_length": 879,
     "game_map": "Dragon Shire",
+    "game_length": 879,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "22685481-a7b5-5c32-1c23-a88084224d2a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/22685481-a7b5-325c-1c23-a88084224d2a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/22685481-a7b5-325c-1c23-a88084224d2a.StormReplay",
+    "created_at": "2017-08-27 14:57:57",
+    "updated_at": "2017-10-04 01:22:42"
   },
   {
     "id": 31,
@@ -395,12 +485,15 @@
     "size": 1353284,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 01:46:57",
-    "game_length": 788,
     "game_map": "Braxis Holdout",
+    "game_length": 788,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "c3f88c67-71b3-e985-592c-89057c44a9db",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c3f88c67-71b3-85e9-592c-89057c44a9db.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c3f88c67-71b3-85e9-592c-89057c44a9db.StormReplay",
+    "created_at": "2017-08-27 14:57:59",
+    "updated_at": "2017-10-04 01:22:44"
   },
   {
     "id": 32,
@@ -408,12 +501,15 @@
     "size": 1450141,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 00:21:26",
-    "game_length": 813,
     "game_map": "Cursed Hollow",
+    "game_length": 813,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "17b0da8d-bc83-640c-db51-f7f73793897f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/17b0da8d-bc83-0c64-db51-f7f73793897f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/17b0da8d-bc83-0c64-db51-f7f73793897f.StormReplay",
+    "created_at": "2017-08-27 14:58:03",
+    "updated_at": "2017-10-04 01:22:46"
   },
   {
     "id": 33,
@@ -421,12 +517,15 @@
     "size": 1957127,
     "game_type": "HeroLeague",
     "game_date": "2017-08-22 23:59:24",
-    "game_length": 1147,
     "game_map": "Sky Temple",
+    "game_length": 1147,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "cf84c8e7-2ef4-2b4e-9c19-fbd79866c813",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf84c8e7-2ef4-4e2b-9c19-fbd79866c813.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf84c8e7-2ef4-4e2b-9c19-fbd79866c813.StormReplay",
+    "created_at": "2017-08-27 14:58:04",
+    "updated_at": "2017-10-04 01:22:49"
   },
   {
     "id": 34,
@@ -434,12 +533,15 @@
     "size": 1609111,
     "game_type": "HeroLeague",
     "game_date": "2017-08-22 23:34:19",
-    "game_length": 955,
     "game_map": "Braxis Holdout",
+    "game_length": 955,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "84bbca31-44e3-033e-8e67-e1d3174450e3",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/84bbca31-44e3-3e03-8e67-e1d3174450e3.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/84bbca31-44e3-3e03-8e67-e1d3174450e3.StormReplay",
+    "created_at": "2017-08-27 14:58:06",
+    "updated_at": "2017-10-04 01:22:52"
   },
   {
     "id": 35,
@@ -447,12 +549,15 @@
     "size": 1826861,
     "game_type": "HeroLeague",
     "game_date": "2017-08-22 22:32:43",
-    "game_length": 1070,
     "game_map": "Towers of Doom",
+    "game_length": 1070,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "1f240afc-3f5f-6463-5786-e7b443d0fcf5",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1f240afc-3f5f-6364-5786-e7b443d0fcf5.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1f240afc-3f5f-6364-5786-e7b443d0fcf5.StormReplay",
+    "created_at": "2017-08-27 14:58:09",
+    "updated_at": "2017-10-04 01:22:54"
   },
   {
     "id": 36,
@@ -460,12 +565,15 @@
     "size": 1986677,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 02:00:26",
-    "game_length": 1269,
     "game_map": "Haunted Mines",
+    "game_length": 1269,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "ccf34246-3c6f-9e5a-8f30-f1ccc30dae26",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ccf34246-3c6f-5a9e-8f30-f1ccc30dae26.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ccf34246-3c6f-5a9e-8f30-f1ccc30dae26.StormReplay",
+    "created_at": "2017-08-27 14:58:16",
+    "updated_at": "2017-10-04 01:22:57"
   },
   {
     "id": 37,
@@ -473,12 +581,15 @@
     "size": 1259615,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 01:37:37",
-    "game_length": 696,
     "game_map": "Cursed Hollow",
+    "game_length": 696,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "38d25653-2cbd-2a5e-4f0f-091e852ef294",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/38d25653-2cbd-5e2a-4f0f-091e852ef294.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/38d25653-2cbd-5e2a-4f0f-091e852ef294.StormReplay",
+    "created_at": "2017-08-27 14:58:17",
+    "updated_at": "2017-10-04 01:22:59"
   },
   {
     "id": 38,
@@ -486,12 +597,15 @@
     "size": 1840956,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 01:24:21",
-    "game_length": 1102,
     "game_map": "Infernal Shrines",
+    "game_length": 1102,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "9d33b3ca-3b6a-bb87-aa63-3dbc1d816e3e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9d33b3ca-3b6a-87bb-aa63-3dbc1d816e3e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9d33b3ca-3b6a-87bb-aa63-3dbc1d816e3e.StormReplay",
+    "created_at": "2017-08-27 14:58:19",
+    "updated_at": "2017-10-04 01:23:02"
   },
   {
     "id": 39,
@@ -499,12 +613,15 @@
     "size": 1668405,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 23:53:33",
-    "game_length": 923,
     "game_map": "Battlefield of Eternity",
+    "game_length": 923,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "818954f5-513b-2ce0-f0ec-001b57a3e387",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/818954f5-513b-e02c-f0ec-001b57a3e387.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/818954f5-513b-e02c-f0ec-001b57a3e387.StormReplay",
+    "created_at": "2017-08-27 14:58:23",
+    "updated_at": "2017-10-04 01:23:04"
   },
   {
     "id": 40,
@@ -512,12 +629,15 @@
     "size": 1245187,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 22:45:45",
-    "game_length": 707,
     "game_map": "Sky Temple",
+    "game_length": 707,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "e7218f0a-cc38-7f58-fcf5-a204f81546f7",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e7218f0a-cc38-587f-fcf5-a204f81546f7.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e7218f0a-cc38-587f-fcf5-a204f81546f7.StormReplay",
+    "created_at": "2017-08-27 14:58:26",
+    "updated_at": "2017-10-04 01:23:06"
   },
   {
     "id": 41,
@@ -525,12 +645,15 @@
     "size": 1325374,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 22:22:23",
-    "game_length": 745,
     "game_map": "Sky Temple",
+    "game_length": 745,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "4990ef13-0f01-7b37-4c9a-3dfd0c6c87af",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4990ef13-0f01-377b-4c9a-3dfd0c6c87af.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/4990ef13-0f01-377b-4c9a-3dfd0c6c87af.StormReplay",
+    "created_at": "2017-08-27 14:58:27",
+    "updated_at": "2017-10-04 01:23:08"
   },
   {
     "id": 42,
@@ -538,12 +661,15 @@
     "size": 926418,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 20:28:28",
-    "game_length": 581,
     "game_map": "Dragon Shire",
+    "game_length": 581,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "7d785cc7-5b31-aacb-a27a-959b0ea30ef8",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7d785cc7-5b31-cbaa-a27a-959b0ea30ef8.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7d785cc7-5b31-cbaa-a27a-959b0ea30ef8.StormReplay",
+    "created_at": "2017-08-27 14:58:28",
+    "updated_at": "2017-10-04 01:23:10"
   },
   {
     "id": 43,
@@ -551,12 +677,15 @@
     "size": 1900939,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 20:10:56",
-    "game_length": 1099,
     "game_map": "Blackheart's Bay",
+    "game_length": 1099,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "65f4e61c-b04f-b316-810b-10800ef658df",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/65f4e61c-b04f-16b3-810b-10800ef658df.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/65f4e61c-b04f-16b3-810b-10800ef658df.StormReplay",
+    "created_at": "2017-08-27 14:58:31",
+    "updated_at": "2017-10-04 01:23:13"
   },
   {
     "id": 44,
@@ -564,12 +693,15 @@
     "size": 1098097,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 19:41:21",
-    "game_length": 577,
     "game_map": "Battlefield of Eternity",
+    "game_length": 577,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "58ab758f-51ff-c46a-117e-58db271fa0b5",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/58ab758f-51ff-6ac4-117e-58db271fa0b5.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/58ab758f-51ff-6ac4-117e-58db271fa0b5.StormReplay",
+    "created_at": "2017-08-27 14:58:32",
+    "updated_at": "2017-10-04 01:23:15"
   },
   {
     "id": 45,
@@ -577,12 +709,15 @@
     "size": 1517359,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 19:22:39",
-    "game_length": 833,
     "game_map": "Cursed Hollow",
+    "game_length": 833,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "7c7a4a02-56f5-8ec8-8a18-ce49d27e8817",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7c7a4a02-56f5-c88e-8a18-ce49d27e8817.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7c7a4a02-56f5-c88e-8a18-ce49d27e8817.StormReplay",
+    "created_at": "2017-08-27 14:58:33",
+    "updated_at": "2017-10-04 01:23:18"
   },
   {
     "id": 46,
@@ -590,12 +725,15 @@
     "size": 1645817,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 17:44:50",
-    "game_length": 978,
     "game_map": "Battlefield of Eternity",
+    "game_length": 978,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "205424a7-2ee0-9251-116e-935fde1e0773",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/205424a7-2ee0-5192-116e-935fde1e0773.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/205424a7-2ee0-5192-116e-935fde1e0773.StormReplay",
+    "created_at": "2017-08-27 14:58:38",
+    "updated_at": "2017-10-04 01:23:20"
   },
   {
     "id": 47,
@@ -603,12 +741,15 @@
     "size": 1637283,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 17:18:45",
-    "game_length": 971,
     "game_map": "Blackheart's Bay",
+    "game_length": 971,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "6f5a6a0f-7b0e-6338-c863-89afe85c377c",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6f5a6a0f-7b0e-3863-c863-89afe85c377c.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6f5a6a0f-7b0e-3863-c863-89afe85c377c.StormReplay",
+    "created_at": "2017-08-27 14:58:40",
+    "updated_at": "2017-10-04 01:23:23"
   },
   {
     "id": 48,
@@ -616,12 +757,15 @@
     "size": 1722016,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 16:54:57",
-    "game_length": 1032,
     "game_map": "Cursed Hollow",
+    "game_length": 1032,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "95af5c85-998f-5b47-c5b9-ba5a15b619fb",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/95af5c85-998f-475b-c5b9-ba5a15b619fb.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/95af5c85-998f-475b-c5b9-ba5a15b619fb.StormReplay",
+    "created_at": "2017-08-27 14:58:41",
+    "updated_at": "2017-10-05 03:06:08"
   },
   {
     "id": 49,
@@ -629,12 +773,15 @@
     "size": 1888437,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 16:29:12",
-    "game_length": 1082,
     "game_map": "Warhead Junction",
+    "game_length": 1082,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "9bcc522f-9b8b-34a3-5bed-863f0348c818",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9bcc522f-9b8b-a334-5bed-863f0348c818.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9bcc522f-9b8b-a334-5bed-863f0348c818.StormReplay",
+    "created_at": "2017-08-27 14:58:43",
+    "updated_at": "2017-10-04 01:23:27"
   },
   {
     "id": 50,
@@ -642,12 +789,15 @@
     "size": 1996460,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 15:56:36",
-    "game_length": 1276,
     "game_map": "Garden of Terror",
+    "game_length": 1276,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "9cdea101-15c5-39cd-0b51-84cc645f2e5e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9cdea101-15c5-cd39-0b51-84cc645f2e5e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/9cdea101-15c5-cd39-0b51-84cc645f2e5e.StormReplay",
+    "created_at": "2017-08-27 14:58:44",
+    "updated_at": "2017-10-04 01:23:30"
   },
   {
     "id": 51,
@@ -655,12 +805,15 @@
     "size": 2041562,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 15:27:11",
-    "game_length": 1269,
     "game_map": "Towers of Doom",
+    "game_length": 1269,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "a196a0f5-c050-213e-cd3f-5a2107e85513",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a196a0f5-c050-3e21-cd3f-5a2107e85513.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a196a0f5-c050-3e21-cd3f-5a2107e85513.StormReplay",
+    "created_at": "2017-08-27 14:58:46",
+    "updated_at": "2017-10-04 01:23:33"
   },
   {
     "id": 52,
@@ -668,12 +821,15 @@
     "size": 2026869,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 14:44:21",
-    "game_length": 1092,
     "game_map": "Blackheart's Bay",
+    "game_length": 1092,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "cf77e26f-b571-8872-4e1f-de1e05b442dd",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf77e26f-b571-7288-4e1f-de1e05b442dd.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf77e26f-b571-7288-4e1f-de1e05b442dd.StormReplay",
+    "created_at": "2017-08-27 14:58:48",
+    "updated_at": "2017-10-04 01:23:36"
   },
   {
     "id": 53,
@@ -681,12 +837,15 @@
     "size": 1822752,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 14:15:36",
-    "game_length": 1025,
     "game_map": "Dragon Shire",
+    "game_length": 1025,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "ab24654c-4f80-bec8-cb1e-d84fccf7ff47",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ab24654c-4f80-c8be-cb1e-d84fccf7ff47.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ab24654c-4f80-c8be-cb1e-d84fccf7ff47.StormReplay",
+    "created_at": "2017-08-27 14:58:49",
+    "updated_at": "2017-10-04 01:23:39"
   },
   {
     "id": 54,
@@ -694,12 +853,15 @@
     "size": 1834774,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 13:52:23",
-    "game_length": 1153,
     "game_map": "Warhead Junction",
+    "game_length": 1153,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "09d56d79-3071-db3c-0d26-d0cac1bed28e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/09d56d79-3071-3cdb-0d26-d0cac1bed28e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/09d56d79-3071-3cdb-0d26-d0cac1bed28e.StormReplay",
+    "created_at": "2017-08-27 14:58:50",
+    "updated_at": "2017-10-04 01:23:41"
   },
   {
     "id": 55,
@@ -707,12 +869,15 @@
     "size": 1779681,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 13:26:35",
-    "game_length": 1095,
     "game_map": "Braxis Holdout",
+    "game_length": 1095,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "ff5123b1-8f9b-f53b-51da-b56671c0d627",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ff5123b1-8f9b-3bf5-51da-b56671c0d627.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ff5123b1-8f9b-3bf5-51da-b56671c0d627.StormReplay",
+    "created_at": "2017-08-27 14:58:52",
+    "updated_at": "2017-10-04 01:23:44"
   },
   {
     "id": 56,
@@ -720,12 +885,15 @@
     "size": 1680381,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 13:00:15",
-    "game_length": 1026,
     "game_map": "Garden of Terror",
+    "game_length": 1026,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "0a456890-25b3-bbd6-73ee-ee6ef571c190",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0a456890-25b3-d6bb-73ee-ee6ef571c190.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0a456890-25b3-d6bb-73ee-ee6ef571c190.StormReplay",
+    "created_at": "2017-08-27 14:58:53",
+    "updated_at": "2017-10-04 01:23:46"
   },
   {
     "id": 57,
@@ -733,12 +901,15 @@
     "size": 1424463,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 12:02:50",
-    "game_length": 857,
     "game_map": "Braxis Holdout",
+    "game_length": 857,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "0e66fe8d-7688-ae12-1bb2-640b25e35594",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0e66fe8d-7688-12ae-1bb2-640b25e35594.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0e66fe8d-7688-12ae-1bb2-640b25e35594.StormReplay",
+    "created_at": "2017-08-27 14:58:56",
+    "updated_at": "2017-10-05 03:06:09"
   },
   {
     "id": 58,
@@ -746,12 +917,15 @@
     "size": 1895666,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 11:40:57",
-    "game_length": 1172,
     "game_map": "Sky Temple",
+    "game_length": 1172,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "0de0ebb3-0659-76c1-4a00-674b48b020e1",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0de0ebb3-0659-c176-4a00-674b48b020e1.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/0de0ebb3-0659-c176-4a00-674b48b020e1.StormReplay",
+    "created_at": "2017-08-27 14:58:58",
+    "updated_at": "2017-10-04 01:23:51"
   },
   {
     "id": 59,
@@ -759,12 +933,15 @@
     "size": 1495665,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 23:16:28",
-    "game_length": 872,
     "game_map": "Braxis Holdout",
+    "game_length": 872,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "04e92942-7a46-2cf1-24f6-65dcf4ea409f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/04e92942-7a46-f12c-24f6-65dcf4ea409f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/04e92942-7a46-f12c-24f6-65dcf4ea409f.StormReplay",
+    "created_at": "2017-08-27 14:58:59",
+    "updated_at": "2017-10-04 01:23:53"
   },
   {
     "id": 60,
@@ -772,12 +949,15 @@
     "size": 1744499,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 21:02:33",
-    "game_length": 930,
     "game_map": "Cursed Hollow",
+    "game_length": 930,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "1dedd1e2-69fe-cf3f-d198-5ea6362ebb51",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1dedd1e2-69fe-3fcf-d198-5ea6362ebb51.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1dedd1e2-69fe-3fcf-d198-5ea6362ebb51.StormReplay",
+    "created_at": "2017-08-27 14:59:05",
+    "updated_at": "2017-10-04 01:23:55"
   },
   {
     "id": 61,
@@ -785,12 +965,15 @@
     "size": 1943795,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 20:19:56",
-    "game_length": 1035,
     "game_map": "Sky Temple",
+    "game_length": 1035,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "84d7b06f-efec-38f1-407f-04517a03e124",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/84d7b06f-efec-f138-407f-04517a03e124.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/84d7b06f-efec-f138-407f-04517a03e124.StormReplay",
+    "created_at": "2017-08-27 14:59:06",
+    "updated_at": "2017-10-04 01:23:58"
   },
   {
     "id": 62,
@@ -798,12 +981,15 @@
     "size": 1594652,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 19:27:07",
-    "game_length": 904,
     "game_map": "Blackheart's Bay",
+    "game_length": 904,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "c59c7b91-948b-fe93-6111-d821e0deb4fe",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c59c7b91-948b-93fe-6111-d821e0deb4fe.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/c59c7b91-948b-93fe-6111-d821e0deb4fe.StormReplay",
+    "created_at": "2017-08-27 14:59:09",
+    "updated_at": "2017-10-04 01:24:00"
   },
   {
     "id": 63,
@@ -811,12 +997,15 @@
     "size": 1839228,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 19:02:55",
-    "game_length": 1102,
     "game_map": "Towers of Doom",
+    "game_length": 1102,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "d6dd2163-1da7-4227-3b02-28f6f41456af",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d6dd2163-1da7-2742-3b02-28f6f41456af.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d6dd2163-1da7-2742-3b02-28f6f41456af.StormReplay",
+    "created_at": "2017-08-27 14:59:10",
+    "updated_at": "2017-10-04 01:24:03"
   },
   {
     "id": 64,
@@ -824,12 +1013,15 @@
     "size": 1793764,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 18:34:53",
-    "game_length": 1030,
     "game_map": "Blackheart's Bay",
+    "game_length": 1030,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "01b2ac33-e04e-bf5b-b172-6b2a55643b2a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/01b2ac33-e04e-5bbf-b172-6b2a55643b2a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/01b2ac33-e04e-5bbf-b172-6b2a55643b2a.StormReplay",
+    "created_at": "2017-08-27 14:59:12",
+    "updated_at": "2017-10-04 01:24:05"
   },
   {
     "id": 65,
@@ -837,12 +1029,15 @@
     "size": 1996972,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 12:07:24",
-    "game_length": 1229,
     "game_map": "Towers of Doom",
+    "game_length": 1229,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "22659818-701b-60d1-68a7-aed2ae859618",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/22659818-701b-d160-68a7-aed2ae859618.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/22659818-701b-d160-68a7-aed2ae859618.StormReplay",
+    "created_at": "2017-08-27 14:59:19",
+    "updated_at": "2017-10-05 03:06:11"
   },
   {
     "id": 66,
@@ -850,12 +1045,15 @@
     "size": 1802093,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 11:35:28",
-    "game_length": 1043,
     "game_map": "Towers of Doom",
+    "game_length": 1043,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "1e3dda14-e99d-2302-49d1-370d3ead37c0",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1e3dda14-e99d-0223-49d1-370d3ead37c0.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1e3dda14-e99d-0223-49d1-370d3ead37c0.StormReplay",
+    "created_at": "2017-08-27 14:59:21",
+    "updated_at": "2017-10-04 01:24:11"
   },
   {
     "id": 67,
@@ -863,12 +1061,15 @@
     "size": 1560034,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 09:55:12",
-    "game_length": 931,
     "game_map": "Blackheart's Bay",
+    "game_length": 931,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "ff716550-fa23-dd79-56f6-ba86d9ba33d3",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ff716550-fa23-79dd-56f6-ba86d9ba33d3.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ff716550-fa23-79dd-56f6-ba86d9ba33d3.StormReplay",
+    "created_at": "2017-08-27 14:59:26",
+    "updated_at": "2017-10-04 01:24:13"
   },
   {
     "id": 68,
@@ -876,12 +1077,15 @@
     "size": 1920842,
     "game_type": "HeroLeague",
     "game_date": "2017-08-15 09:29:57",
-    "game_length": 988,
     "game_map": "Braxis Holdout",
+    "game_length": 988,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "06b6e5c6-ed0b-cff6-581d-d85e3b0e03b3",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/06b6e5c6-ed0b-f6cf-581d-d85e3b0e03b3.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/06b6e5c6-ed0b-f6cf-581d-d85e3b0e03b3.StormReplay",
+    "created_at": "2017-08-27 14:59:27",
+    "updated_at": "2017-10-04 01:24:16"
   },
   {
     "id": 69,
@@ -889,12 +1093,15 @@
     "size": 1942696,
     "game_type": "HeroLeague",
     "game_date": "2017-08-13 23:13:45",
-    "game_length": 1113,
     "game_map": "Blackheart's Bay",
+    "game_length": 1113,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "cabce51d-2bee-d4ef-c4de-40cbe13b934c",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cabce51d-2bee-efd4-c4de-40cbe13b934c.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cabce51d-2bee-efd4-c4de-40cbe13b934c.StormReplay",
+    "created_at": "2017-08-27 14:59:34",
+    "updated_at": "2017-10-04 01:24:19"
   },
   {
     "id": 70,
@@ -902,12 +1109,15 @@
     "size": 1914198,
     "game_type": "HeroLeague",
     "game_date": "2017-08-13 22:42:02",
-    "game_length": 1125,
     "game_map": "Towers of Doom",
+    "game_length": 1125,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "b0a1e3ca-b05e-c085-42b6-6b326169d154",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b0a1e3ca-b05e-85c0-42b6-6b326169d154.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b0a1e3ca-b05e-85c0-42b6-6b326169d154.StormReplay",
+    "created_at": "2017-08-27 14:59:36",
+    "updated_at": "2017-10-04 01:24:22"
   },
   {
     "id": 71,
@@ -915,12 +1125,15 @@
     "size": 1386018,
     "game_type": "HeroLeague",
     "game_date": "2017-08-13 20:42:05",
-    "game_length": 819,
     "game_map": "Warhead Junction",
+    "game_length": 819,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "fc815ccb-7738-7e24-51d5-a0fe3bf4d129",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/fc815ccb-7738-247e-51d5-a0fe3bf4d129.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/fc815ccb-7738-247e-51d5-a0fe3bf4d129.StormReplay",
+    "created_at": "2017-08-27 14:59:41",
+    "updated_at": "2017-10-04 01:24:24"
   },
   {
     "id": 72,
@@ -928,12 +1141,15 @@
     "size": 2471512,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 20:05:30",
-    "game_length": 1363,
     "game_map": "Dragon Shire",
+    "game_length": 1363,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "d3a14039-6cac-cbdd-23a7-956efc18cb86",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d3a14039-6cac-ddcb-23a7-956efc18cb86.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/d3a14039-6cac-ddcb-23a7-956efc18cb86.StormReplay",
+    "created_at": "2017-08-27 15:14:02",
+    "updated_at": "2017-10-04 01:24:27"
   },
   {
     "id": 73,
@@ -941,12 +1157,15 @@
     "size": 2233477,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 19:34:49",
-    "game_length": 1289,
     "game_map": "Braxis Holdout",
+    "game_length": 1289,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "cf758bc9-21dc-dff3-cf77-c97e50091101",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf758bc9-21dc-f3df-cf77-c97e50091101.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/cf758bc9-21dc-f3df-cf77-c97e50091101.StormReplay",
+    "created_at": "2017-08-27 15:14:04",
+    "updated_at": "2017-10-04 01:24:30"
   },
   {
     "id": 74,
@@ -954,12 +1173,15 @@
     "size": 2299838,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 18:12:51",
-    "game_length": 1436,
     "game_map": "Dragon Shire",
+    "game_length": 1436,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "91935835-ebda-f204-5dbb-2cac49e48110",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/91935835-ebda-04f2-5dbb-2cac49e48110.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/91935835-ebda-04f2-5dbb-2cac49e48110.StormReplay",
+    "created_at": "2017-08-27 15:14:05",
+    "updated_at": "2017-10-04 01:24:33"
   },
   {
     "id": 75,
@@ -967,12 +1189,15 @@
     "size": 2333867,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 17:40:11",
-    "game_length": 1439,
     "game_map": "Garden of Terror",
+    "game_length": 1439,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "e08b7511-7a8d-210b-f87c-26df362d3c75",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e08b7511-7a8d-0b21-f87c-26df362d3c75.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/e08b7511-7a8d-0b21-f87c-26df362d3c75.StormReplay",
+    "created_at": "2017-08-27 15:14:08",
+    "updated_at": "2017-10-05 03:06:13"
   },
   {
     "id": 76,
@@ -980,12 +1205,15 @@
     "size": 2882142,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 16:45:46",
-    "game_length": 1750,
     "game_map": "Warhead Junction",
+    "game_length": 1750,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "103735db-8c4a-877f-843f-94c6f5e8310d",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/103735db-8c4a-7f87-843f-94c6f5e8310d.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/103735db-8c4a-7f87-843f-94c6f5e8310d.StormReplay",
+    "created_at": "2017-08-27 15:14:10",
+    "updated_at": "2017-10-04 01:24:40"
   },
   {
     "id": 77,
@@ -993,12 +1221,15 @@
     "size": 2309455,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 14:44:48",
-    "game_length": 1268,
     "game_map": "Battlefield of Eternity",
+    "game_length": 1268,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "96af3a4b-a0f8-2fd2-0fd9-b6504027a47e",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/96af3a4b-a0f8-d22f-0fd9-b6504027a47e.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/96af3a4b-a0f8-d22f-0fd9-b6504027a47e.StormReplay",
+    "created_at": "2017-08-27 15:14:12",
+    "updated_at": "2017-10-04 01:24:43"
   },
   {
     "id": 78,
@@ -1006,12 +1237,15 @@
     "size": 2160001,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 14:15:23",
-    "game_length": 1228,
     "game_map": "Cursed Hollow",
+    "game_length": 1228,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "60a52849-b76b-e07a-55f6-2dbc114dfce9",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/60a52849-b76b-7ae0-55f6-2dbc114dfce9.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/60a52849-b76b-7ae0-55f6-2dbc114dfce9.StormReplay",
+    "created_at": "2017-08-27 15:14:13",
+    "updated_at": "2017-10-04 01:24:46"
   },
   {
     "id": 79,
@@ -1019,12 +1253,15 @@
     "size": 2114777,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 11:51:21",
-    "game_length": 1239,
     "game_map": "Sky Temple",
+    "game_length": 1239,
     "game_version": "2.27.2.56705",
-    "region": 2,
     "fingerprint": "636dee4c-3d11-dd7c-c32a-a659786655cb",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/636dee4c-3d11-7cdd-c32a-a659786655cb.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/636dee4c-3d11-7cdd-c32a-a659786655cb.StormReplay",
+    "created_at": "2017-08-27 15:14:15",
+    "updated_at": "2017-10-04 01:24:49"
   },
   {
     "id": 80,
@@ -1032,12 +1269,15 @@
     "size": 2112544,
     "game_type": "HeroLeague",
     "game_date": "2017-08-24 09:18:49",
-    "game_length": 1272,
     "game_map": "Battlefield of Eternity",
+    "game_length": 1272,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "1f702dc8-a991-1614-eb68-463f197d11b1",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1f702dc8-a991-1416-eb68-463f197d11b1.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/1f702dc8-a991-1416-eb68-463f197d11b1.StormReplay",
+    "created_at": "2017-08-27 15:14:17",
+    "updated_at": "2017-10-04 01:24:52"
   },
   {
     "id": 81,
@@ -1045,12 +1285,15 @@
     "size": 2337996,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 10:58:38",
-    "game_length": 1243,
     "game_map": "Cursed Hollow",
+    "game_length": 1243,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "5ba58bef-0b8b-877a-2f09-7a8a512b7144",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5ba58bef-0b8b-7a87-2f09-7a8a512b7144.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5ba58bef-0b8b-7a87-2f09-7a8a512b7144.StormReplay",
+    "created_at": "2017-08-27 15:14:19",
+    "updated_at": "2017-10-04 01:24:55"
   },
   {
     "id": 82,
@@ -1058,12 +1301,15 @@
     "size": 2430211,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 10:31:25",
-    "game_length": 1362,
     "game_map": "Braxis Holdout",
+    "game_length": 1362,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "947de43d-0650-0696-5b07-689fe57d0366",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/947de43d-0650-9606-5b07-689fe57d0366.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/947de43d-0650-9606-5b07-689fe57d0366.StormReplay",
+    "created_at": "2017-08-27 15:14:21",
+    "updated_at": "2017-10-04 01:24:59"
   },
   {
     "id": 83,
@@ -1071,12 +1317,15 @@
     "size": 2242373,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 09:32:30",
-    "game_length": 1394,
     "game_map": "Battlefield of Eternity",
+    "game_length": 1394,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "db514f33-651c-9b88-5c53-9fca5c98976a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/db514f33-651c-889b-5c53-9fca5c98976a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/db514f33-651c-889b-5c53-9fca5c98976a.StormReplay",
+    "created_at": "2017-08-27 15:14:23",
+    "updated_at": "2017-10-04 01:25:02"
   },
   {
     "id": 84,
@@ -1084,12 +1333,15 @@
     "size": 2145251,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 09:01:41",
-    "game_length": 1300,
     "game_map": "Warhead Junction",
+    "game_length": 1300,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "5a88e0d7-5b90-88cb-a972-65886e45100a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5a88e0d7-5b90-cb88-a972-65886e45100a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/5a88e0d7-5b90-cb88-a972-65886e45100a.StormReplay",
+    "created_at": "2017-08-27 15:14:24",
+    "updated_at": "2017-10-04 01:25:05"
   },
   {
     "id": 85,
@@ -1097,12 +1349,15 @@
     "size": 2913977,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 08:24:23",
-    "game_length": 1722,
     "game_map": "Garden of Terror",
+    "game_length": 1722,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "a96ac7a6-b5aa-633f-4956-d9f0a8e856bf",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a96ac7a6-b5aa-3f63-4956-d9f0a8e856bf.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/a96ac7a6-b5aa-3f63-4956-d9f0a8e856bf.StormReplay",
+    "created_at": "2017-08-27 15:14:27",
+    "updated_at": "2017-10-04 01:25:09"
   },
   {
     "id": 86,
@@ -1110,12 +1365,15 @@
     "size": 2372794,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 07:23:08",
-    "game_length": 1393,
     "game_map": "Dragon Shire",
+    "game_length": 1393,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "00522f4e-c4ba-f2a6-db0f-58b8d0d30b70",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/00522f4e-c4ba-a6f2-db0f-58b8d0d30b70.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/00522f4e-c4ba-a6f2-db0f-58b8d0d30b70.StormReplay",
+    "created_at": "2017-08-27 15:14:29",
+    "updated_at": "2017-10-04 01:25:12"
   },
   {
     "id": 87,
@@ -1123,12 +1381,15 @@
     "size": 2910947,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 05:34:17",
-    "game_length": 1733,
     "game_map": "Garden of Terror",
+    "game_length": 1733,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "7bafd736-abe8-d02a-f91d-e915ff672a66",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7bafd736-abe8-2ad0-f91d-e915ff672a66.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/7bafd736-abe8-2ad0-f91d-e915ff672a66.StormReplay",
+    "created_at": "2017-08-27 15:14:31",
+    "updated_at": "2017-10-04 01:25:16"
   },
   {
     "id": 88,
@@ -1136,12 +1397,15 @@
     "size": 2437178,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 01:28:15",
-    "game_length": 1523,
     "game_map": "Blackheart's Bay",
+    "game_length": 1523,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "f8544fed-1325-78a7-27b8-4f09868c075a",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/f8544fed-1325-a778-27b8-4f09868c075a.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/f8544fed-1325-a778-27b8-4f09868c075a.StormReplay",
+    "created_at": "2017-08-27 15:14:33",
+    "updated_at": "2017-10-04 01:25:20"
   },
   {
     "id": 89,
@@ -1149,12 +1413,15 @@
     "size": 2361156,
     "game_type": "HeroLeague",
     "game_date": "2017-08-23 00:53:16",
-    "game_length": 1329,
     "game_map": "Battlefield of Eternity",
+    "game_length": 1329,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "aa7b8a44-f90a-e8f2-37e2-40c5ccaaa342",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/aa7b8a44-f90a-f2e8-37e2-40c5ccaaa342.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/aa7b8a44-f90a-f2e8-37e2-40c5ccaaa342.StormReplay",
+    "created_at": "2017-08-27 15:14:34",
+    "updated_at": "2017-10-04 01:25:23"
   },
   {
     "id": 90,
@@ -1162,12 +1429,15 @@
     "size": 2412316,
     "game_type": "HeroLeague",
     "game_date": "2017-08-22 23:02:07",
-    "game_length": 1259,
     "game_map": "Cursed Hollow",
+    "game_length": 1259,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "b1dc1eda-4a7b-5ed6-6392-95da8830a693",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b1dc1eda-4a7b-d65e-6392-95da8830a693.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b1dc1eda-4a7b-d65e-6392-95da8830a693.StormReplay",
+    "created_at": "2017-08-27 15:14:36",
+    "updated_at": "2017-10-04 01:25:26"
   },
   {
     "id": 91,
@@ -1175,12 +1445,15 @@
     "size": 2270994,
     "game_type": "HeroLeague",
     "game_date": "2017-08-22 22:10:41",
-    "game_length": 1406,
     "game_map": "Blackheart's Bay",
+    "game_length": 1406,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "6bb4bedf-ba42-77ae-2076-65e92c35580b",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6bb4bedf-ba42-ae77-2076-65e92c35580b.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/6bb4bedf-ba42-ae77-2076-65e92c35580b.StormReplay",
+    "created_at": "2017-08-27 15:14:38",
+    "updated_at": "2017-10-05 03:06:18"
   },
   {
     "id": 92,
@@ -1188,12 +1461,15 @@
     "size": 2787563,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 03:13:27",
-    "game_length": 1597,
     "game_map": "Tomb of the Spider Queen",
+    "game_length": 1597,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "8896f146-0af6-f4e9-b493-9d157fd4f154",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/8896f146-0af6-e9f4-b493-9d157fd4f154.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/8896f146-0af6-e9f4-b493-9d157fd4f154.StormReplay",
+    "created_at": "2017-08-27 15:14:41",
+    "updated_at": "2017-10-04 01:25:32"
   },
   {
     "id": 93,
@@ -1201,12 +1477,15 @@
     "size": 2262733,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 02:45:45",
-    "game_length": 1287,
     "game_map": "Warhead Junction",
+    "game_length": 1287,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "2534761a-8df9-e348-23f7-f12d88f89ba1",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2534761a-8df9-48e3-23f7-f12d88f89ba1.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/2534761a-8df9-48e3-23f7-f12d88f89ba1.StormReplay",
+    "created_at": "2017-08-27 15:14:43",
+    "updated_at": "2017-10-04 01:25:36"
   },
   {
     "id": 94,
@@ -1214,12 +1493,15 @@
     "size": 2229746,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 02:23:18",
-    "game_length": 1268,
     "game_map": "Blackheart's Bay",
+    "game_length": 1268,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "20e66cd0-e173-1585-a771-6babc100103f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/20e66cd0-e173-8515-a771-6babc100103f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/20e66cd0-e173-8515-a771-6babc100103f.StormReplay",
+    "created_at": "2017-08-27 15:14:44",
+    "updated_at": "2017-10-04 01:25:39"
   },
   {
     "id": 95,
@@ -1227,12 +1509,15 @@
     "size": 2498535,
     "game_type": "QuickMatch",
     "game_date": "2017-08-21 01:04:57",
-    "game_length": 1344,
     "game_map": "Sky Temple",
+    "game_length": 1344,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "53ce0238-d80a-7632-e5dd-82d7d307524f",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/53ce0238-d80a-3276-e5dd-82d7d307524f.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/53ce0238-d80a-3276-e5dd-82d7d307524f.StormReplay",
+    "created_at": "2017-08-27 15:14:46",
+    "updated_at": "2017-10-04 01:25:42"
   },
   {
     "id": 96,
@@ -1240,12 +1525,15 @@
     "size": 2190765,
     "game_type": "HeroLeague",
     "game_date": "2017-08-21 00:28:17",
-    "game_length": 1166,
     "game_map": "Sky Temple",
+    "game_length": 1166,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "299e5382-cc5c-814c-c4d2-2258761ab3aa",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/299e5382-cc5c-4c81-c4d2-2258761ab3aa.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/299e5382-cc5c-4c81-c4d2-2258761ab3aa.StormReplay",
+    "created_at": "2017-08-27 15:14:48",
+    "updated_at": "2017-10-04 01:25:45"
   },
   {
     "id": 97,
@@ -1253,12 +1541,15 @@
     "size": 3388179,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 23:23:35",
-    "game_length": 1805,
     "game_map": "Warhead Junction",
+    "game_length": 1805,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "83e66bdb-80ac-b9dc-2c4a-ade7169b9539",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/83e66bdb-80ac-dcb9-2c4a-ade7169b9539.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/83e66bdb-80ac-dcb9-2c4a-ade7169b9539.StormReplay",
+    "created_at": "2017-08-27 15:14:51",
+    "updated_at": "2017-10-04 01:25:50"
   },
   {
     "id": 98,
@@ -1266,12 +1557,15 @@
     "size": 3096666,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 19:03:14",
-    "game_length": 1665,
     "game_map": "Braxis Holdout",
+    "game_length": 1665,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "fd60edf6-41b7-6ab1-b354-43f8c33c9198",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/fd60edf6-41b7-b16a-b354-43f8c33c9198.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/fd60edf6-41b7-b16a-b354-43f8c33c9198.StormReplay",
+    "created_at": "2017-08-27 15:14:53",
+    "updated_at": "2017-10-04 01:25:53"
   },
   {
     "id": 99,
@@ -1279,12 +1573,15 @@
     "size": 2721600,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 18:23:35",
-    "game_length": 1634,
     "game_map": "Dragon Shire",
+    "game_length": 1634,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "b90b5f35-ce1e-cc16-b1c3-bb87ec5f4ed9",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b90b5f35-ce1e-16cc-b1c3-bb87ec5f4ed9.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/b90b5f35-ce1e-16cc-b1c3-bb87ec5f4ed9.StormReplay",
+    "created_at": "2017-08-27 15:14:56",
+    "updated_at": "2017-10-04 01:25:57"
   },
   {
     "id": 100,
@@ -1292,11 +1589,14 @@
     "size": 2576240,
     "game_type": "HeroLeague",
     "game_date": "2017-08-20 12:35:55",
-    "game_length": 1382,
     "game_map": "Cursed Hollow",
+    "game_length": 1382,
     "game_version": "2.27.1.56361",
-    "region": 2,
     "fingerprint": "ec4f08c5-7276-2e35-1cb2-a860cea7b34c",
-    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ec4f08c5-7276-352e-1cb2-a860cea7b34c.StormReplay"
+    "region": 2,
+    "processed": true,
+    "url": "http://hotsapi.s3-website-eu-west-1.amazonaws.com/ec4f08c5-7276-352e-1cb2-a860cea7b34c.StormReplay",
+    "created_at": "2017-08-27 15:14:58",
+    "updated_at": "2017-10-04 01:26:00"
   }
 ]

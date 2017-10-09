@@ -28,21 +28,54 @@ Or install it yourself as:
 replay = HotsApi.replays.find(59) # => #<HotsApi::Models::Replay>
 replay.id           # => 59
 replay.filename     # => '04e92942-7a46-f12c-24f6-65dcf4ea409f'
+replay.size         # => 1495665
 replay.fingerprint  # => '04e92942-7a46-2cf1-24f6-65dcf4ea409f'
 replay.game_date    # => 2017-08-15 23:16:28 +0200
 replay.game_length  # => 872
 replay.game_map     # => 'Braxis Holdout'
 replay.game_type    # => 'HeroLeague'
 replay.game_version # => '2.27.1.56361'
+replay.region       # => 2
+replay.processed    # => true
+replay.url          # => 'http://hotsapi.s3-website-eu-west-1.amazonaws.com/04e92942-7a46-f12c-24f6-65dcf4ea409f.StormReplay'
+replay.created_at   # => 2017-08-27 14:58:59 +0200
+replay.updated_at   # => 2017-10-04 01:23:53 +0200
 replay.players      # => [#<HotsApi::Models::Player>, …]
 
-player = replay.players[0] # => #<HotsApi::Models::Player>
+player = replay.players[2] # => #<HotsApi::Models::Player>
 player.blizz_id   # => 215378
 player.battletag  # => 'Poma'
 player.hero       # => 'Chromie'
 player.hero_level # => 13
 player.team       # => 0
 player.winner     # => true
+player.party      # => 0
+player.talents    # => {"1" => "ChromieTimewalkersPursuit", "4" => "ChromieBronzeTalons", "7" => "ChromieDragonsBreathDragonsEye", "10" => "ChromieHeroicAbilityTemporalLoop", "13" => "ChromieReachingThroughTime", "16" => "ChromieQuantumOverdrive"}
+player.score      # => #<HotsApi::Models::Score>
+
+score = player.score # => #<HotsApi::Models::Score>
+score.level                   # => 16
+score.kills                   # => 9
+score.assists                 # => 14
+score.takedowns               # => 23
+score.deaths                  # => 1
+score.highest_kill_streak     # => 23
+score.hero_damage             # => 35902
+score.siege_damage            # => 33200
+score.structure_damage        # => 10571
+score.minion_damage           # => 20839
+score.creep_damage            # => 6686
+score.summon_damage           # => 1790
+score.time_cc_enemy_heroes    # => 5033
+score.healing                 # => nil
+score.self_healing            # => 0
+score.damage_taken            # => nil
+score.experience_contribution # => 7683
+score.town_kills              # => 0
+score.time_spent_dead         # => 44
+score.merc_camp_captures      # => 3
+score.watch_tower_captures    # => 0
+score.meta_experience         # => 52960
 ```
 
 #### Finding Replays
@@ -57,6 +90,9 @@ replays = HotsApi.replays.to_a # => [#<HotsApi::Models::Replay>, …]
 # by game date
 replays = HotsApi.replays.where(start_date: '2017-09-01 00:00').to_a
 replays = HotsApi.replays.where(end_date: '2017-09-01 00:00').to_a
+
+# by game map
+replays = HotsApi.replays.where(game_map: 'Hanamura').to_a
 
 # by game type
 replays = HotsApi.replays.where(game_type: 'HeroLeague').to_a
@@ -174,7 +210,7 @@ hero_translations = HotsApi.hero_translations.to_a # => [#<HotsApi::Models::Hero
 
 hero_translation = hero_translations[0] # => #<HotsApi::Models::HeroTranslation>
 hero_translation.name     # => 'Abathur'
-hero_translation.versions # => ['abatur', 'абатур', '아바투르', '阿巴瑟', 'abathur']
+hero_translation.translations # => ['abatur', 'абатур', '아바투르', '阿巴瑟', 'abathur']
 ```
 
 ## Finding Map Translations
@@ -184,7 +220,7 @@ map_translations = HotsApi.map_translations.to_a # => [#<HotsApi::Models::MapTra
 
 map_translation = map_translations[0] # => #<HotsApi::Models::MapTranslation>
 map_translation.name     # => 'Battlefield of Eternity'
-map_translation.versions # => ["campo de batalha da eternidade", "campo de batalla de la eternidad", "永恆戰場", "永恒战场", "영원의 전쟁터", "campos de batalla de la eternidad", "schlachtfeld der ewigkeit", "champs de l’éternité", "вечная битва", "campi di battaglia eterni", "pole bitewne wieczności", "battlefield of eternity"]
+map_translation.translations # => ["campo de batalha da eternidade", "campo de batalla de la eternidad", "永恆戰場", "永恒战场", "영원의 전쟁터", "campos de batalla de la eternidad", "schlachtfeld der ewigkeit", "champs de l’éternité", "вечная битва", "campi di battaglia eterni", "pole bitewne wieczności", "battlefield of eternity"]
 ```
 
 ## Rate Limiting

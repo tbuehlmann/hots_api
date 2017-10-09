@@ -13,7 +13,7 @@ module HotsApi
         response = HotsApi.get("#{collection_path}/#{id}")
 
         if response.status.ok?
-          instantiate_record_for(response.parse)
+          instantiate_record_with(response.parse)
         end
       end
 
@@ -30,11 +30,7 @@ module HotsApi
       end
 
       def next_page
-        if @records.any?
-          where(min_id: @records.last.id + 1)
-        else
-
-        end
+        fetch { where(min_id: @records.last.id + 1) if @records.any? }
       end
 
       def each(&block)

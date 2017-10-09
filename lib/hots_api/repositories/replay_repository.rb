@@ -53,6 +53,10 @@ module HotsApi
         @where_values[:end_date] = date_string_for(date)
       end
 
+      def game_map=(map)
+        @where_values[:game_map] = map
+      end
+
       def game_type=(game_type)
         @where_values[:game_type] = game_type
       end
@@ -62,10 +66,12 @@ module HotsApi
       end
 
       def player=(player)
+        raise 'filtering by player is currently deactivated on hotsapi.net'
         @where_values[:player] = player
       end
 
       def hero=(hero)
+        raise 'filtering by hero is currently deactivated on hotsapi.net'
         @where_values[:hero] = hero
       end
 
