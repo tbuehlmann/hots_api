@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {"type": "number"},
+    "filename": {"type": "string"},
+    "size": {"type": "number"},
+    "game_type": {"type": "string"},
+    "game_date": {"type": "string"},
+    "game_map": {"type": "string"},
+    "game_length": {"type": "number"},
+    "game_version": {"type": "string"},
+    "fingerprint": {"type": "string"},
+    "region": {"type": "number"},
+    "processed": {"type": "boolean"},
+    "url": {"type": "string"},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"}
+  }
+}

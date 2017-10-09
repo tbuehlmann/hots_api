@@ -5,6 +5,14 @@ module HotsApi
     class SimpleRepository
       include Enumerable
 
+      def find(id)
+        response = HotsApi.get("#{collection_path}/#{id}")
+
+        if response.status.ok?
+          instantiate_record_with(response.parse)
+        end
+      end
+
       def each(&block)
         records.each(&block)
       end
@@ -31,7 +39,7 @@ module HotsApi
         response = HotsApi.get(collection_path)
 
         response.parse.map do |attributes|
-          instantiate_record_for(attributes)
+          instantiate_record_with(attributes)
         end
       end
 

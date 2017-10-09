@@ -12,7 +12,6 @@ module HotsApi
       attribute :silenced, Boolean
       attribute :battletag, String
       attribute :talents, Hash
-
       attribute :score, Score
     end
   end

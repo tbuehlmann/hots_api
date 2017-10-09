@@ -2,7 +2,7 @@
 
 module HotsApi
   module Models
-    class MapTranslation < Model
+    class Map < Model
       attribute :name, String
       attribute :translations, Array[String]
     end
