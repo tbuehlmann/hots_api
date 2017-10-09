@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "short_name": {"type": "string"},
+    "role": {"type": "string"},
+    "type": {"type": "string"},
+    "release_date": {"type": "string"},
+    "icon_url": {
+      "type": "object",
+      "properties": {
+        "92x93": {"type": "string"}
+      }
+    },
+    "translations": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "owner": {"type": "string"},
+          "name": {"type": "string"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "icon": {"type": ["string", "null"]},
+          "hotkey": {"type": ["string", "null"]},
+          "cooldown": {"type": ["number", "null"]},
+          "mana_cost": {"type": ["number", "null"]},
+          "trait": {"type": "boolean"}
+        }
+      }
+    },
+    "talents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "icon": {"type": ["string", "null"]},
+          "icon_url": {
+            "type": "object",
+            "properties": {
+              "64x64": {"type": "string"}
+            }
+          },
+          "ability": {"type": "string"},
+          "sort": {"type": "number"},
+          "cooldown": {"type": ["number", "null"]},
+          "mana_cost": {"type": ["number", "null"]},
+          "level": {"type": "number"}
+        }
+      }
+    }
+  }
+}

@@ -23,11 +23,11 @@ RSpec.describe HotsApi do
     expect(subject.replays).to be_a(subject::Repositories::ReplayRepository)
   end
 
-  it '.hero_translations returns a hero translations repository' do
-    expect(subject.hero_translations).to be_a(subject::Repositories::HeroTranslationRepository)
+  it '.heroes returns a hero repository' do
+    expect(subject.heroes).to be_a(subject::Repositories::HeroRepository)
   end
 
-  it '.map_translations returns a map translations repository' do
-    expect(subject.map_translations).to be_a(subject::Repositories::MapTranslationRepository)
+  it '.maps returns a map repository' do
+    expect(subject.maps).to be_a(subject::Repositories::MapRepository)
   end
 end
