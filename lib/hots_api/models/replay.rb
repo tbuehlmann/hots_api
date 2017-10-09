@@ -8,12 +8,16 @@ module HotsApi
       attribute :size, Integer
       attribute :game_type, String
       attribute :game_date, Time
-      attribute :game_length, Integer
       attribute :game_map, String
+      attribute :game_length, Integer
       attribute :game_version, String
-      attribute :region, Integer
       attribute :fingerprint, String
+      attribute :region, Integer
+      attribute :processed, Boolean
       attribute :url, String
+      attribute :created_at, Time
+      attribute :updated_at, Time
+
       attribute :players, Array[Player]
 
       def reload

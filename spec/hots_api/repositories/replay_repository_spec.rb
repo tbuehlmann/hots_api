@@ -97,6 +97,17 @@ RSpec.describe HotsApi::Repositories::ReplayRepository do
       end
     end
 
+    it 'filters by game_map' do
+      skip 'returns a 500 right now'
+
+      replays = subject.where(game_map: 'Hanamura').to_a
+      expect(replays).to have(100).replays
+
+      replays.each do |replay|
+        expect(replay.game_map).to eq('Hanamura')
+      end
+    end
+
     it 'filters by game_type' do
       replays = subject.where(game_type: 'HeroLeague').to_a
       expect(replays).to have(100).replays
