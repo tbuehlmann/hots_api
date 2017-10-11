@@ -28,10 +28,9 @@
           "party": {"type": "number"},
           "silenced": {"type": "boolean"},
           "battletag": {"type": "string"},
-          // if there are no talents, we get an empty array instead of an empty object
           "talents": {
             "anyOf": [
-              {"type": "array", "maxItems": 0},
+              {"type": "null"},
               {"type": "object", "patternProperties": {"^\d+$": {"type": "string"}}}
             ]
           },
