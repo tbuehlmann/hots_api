@@ -50,7 +50,7 @@ player.hero_level # => 13
 player.team       # => 0
 player.winner     # => true
 player.party      # => 0
-player.talents    # => {"1" => "ChromieTimewalkersPursuit", "4" => "ChromieBronzeTalons", "7" => "ChromieDragonsBreathDragonsEye", "10" => "ChromieHeroicAbilityTemporalLoop", "13" => "ChromieReachingThroughTime", "16" => "ChromieQuantumOverdrive"}
+player.talents    # => {'1' => 'ChromieTimewalkersPursuit', '4' => 'ChromieBronzeTalons', '7' => 'ChromieDragonsBreathDragonsEye', '10' => 'ChromieHeroicAbilityTemporalLoop', '13' => 'ChromieReachingThroughTime', '16' => 'ChromieQuantumOverdrive'}
 player.score      # => #<HotsApi::Models::Score>
 
 score = player.score # => #<HotsApi::Models::Score>
@@ -182,7 +182,7 @@ HotsApi.replays.fingerprints_uploaded?(fingerprints) # => {'04e92942-7a46-2cf1-2
 
 #### Triggering HotsLogs Uploads
 
-If there's a replay saved on HotsApi, you can trigger uploading it to HotsLogs by its fingerprint:
+If there's a replay saved on HotsApi, you can trigger uploading it to HotsLogs usings its fingerprint:
 
 ```ruby
 fingerprint = '04e92942-7a46-2cf1-24f6-65dcf4ea409f'
@@ -195,7 +195,7 @@ else
 end
 ```
 
-The actual uploading to HotsLogs happens from the HotsApi server.
+The actual uploading to HotsLogs happens from the HotsApi server, not your local computer.
 
 #### Getting The Minimal Supported Build Version
 
@@ -203,24 +203,69 @@ The actual uploading to HotsLogs happens from the HotsApi server.
 HotsApi.replays.minimum_supported_build # => 43905
 ```
 
-## Finding Hero Translations
+## Finding Heroes
+
+#### Finding a Single Hero
 
 ```ruby
-hero_translations = HotsApi.hero_translations.to_a # => [#<HotsApi::Models::HeroTranslation>, …]
+hero = HotsApi.heroes.find('Tassadar') # => #<HotsApi::Models::Hero>
+hero.name         # => 'Tassadar'
+hero.short_name   # => 'tassadar'
+hero.role         # => 'Support'
+hero.type         # => 'Ranged'
+hero.release_date # => 2014-03-13
+hero.icon_url     # => {'92x93' => 'http://s3.hotsapi.net/img/heroes/92x93/tassadar.png'}
+hero.translations # => ['тассадар', '태사다르', '塔萨达尔', '塔薩達', 'tassadar']
+hero.abilities    # => [#<HotsApi::Models::Ability>, …]
 
-hero_translation = hero_translations[0] # => #<HotsApi::Models::HeroTranslation>
-hero_translation.name     # => 'Abathur'
-hero_translation.translations # => ['abatur', 'абатур', '아바투르', '阿巴瑟', 'abathur']
+ability = hero.abilities[0] # => #<HotsApi::Models::Ability>
+ability.name        # => 'D1'
+ability.owner       # => 'Tassadar'
+ability.title       # => 'Oracle'
+ability.description # => 'Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds. Passive: Tassadar's Basic Attack is a Distortion Beam that slows enemy units by 20%.'
+ability.icon        # => nil
+ability.hotkey      # => 'D'
+ability.cooldown    # => 30
+ability.mana_cost   # => nil
+ability.trait       # => true
 ```
 
-## Finding Map Translations
+#### Finding Heroes
 
 ```ruby
-map_translations = HotsApi.map_translations.to_a # => [#<HotsApi::Models::MapTranslation>, …]
+heroes = HotsApi.heroes.to_a # => [#<HotsApi::Models::Hero>, …]
+```
 
-map_translation = map_translations[0] # => #<HotsApi::Models::MapTranslation>
-map_translation.name     # => 'Battlefield of Eternity'
-map_translation.translations # => ["campo de batalha da eternidade", "campo de batalla de la eternidad", "永恆戰場", "永恒战场", "영원의 전쟁터", "campos de batalla de la eternidad", "schlachtfeld der ewigkeit", "champs de l’éternité", "вечная битва", "campi di battaglia eterni", "pole bitewne wieczności", "battlefield of eternity"]
+## Finding Maps
+
+#### Finding a Single Map
+
+  "name": "Tomb of the Spider Queen",
+  "translations": [
+    "tumba de la reina araña",
+    "蛛后之墓",
+    "tumba da aranha rainha",
+    "거미 여왕의 무덤",
+    "tombe de la reine araignée",
+    "grabkammer der spinnenkönigin",
+    "grobowiec pajęczej królowej",
+    "tomba della regina ragno",
+    "гробница королевы пауков",
+    "蛛后墓",
+    "tomb of the spider queen"
+  ]
+},
+
+```ruby
+map = HotsApi.maps.find('Tomb of the Spider Queen') # => #<HotsApi::Models::Map>
+map.name         # => 'Tomb of the Spider Queen'
+map.translations # => ['tumba de la reina araña', '蛛后之墓', 'tumba da aranha rainha', '거미 여왕의 무덤', 'tombe de la reine araignée', 'grabkammer der spinnenkönigin', 'grobowiec pajęczej królowej', 'tomba della regina ragno', 'гробница королевы пауков', '蛛后墓', 'tomb of the spider queen']
+```
+
+#### Finding Maps
+
+```ruby
+map = HotsApi.maps.to_a # => [#<HotsApi::Models::Map>, …]
 ```
 
 ## Rate Limiting
