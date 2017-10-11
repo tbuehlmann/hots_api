@@ -110,6 +110,8 @@ replays = HotsApi.replays.where(hero: 'Tassadar').to_a
 replays = HotsApi.replays.where(start_date: '2017-09-01 00:00', end_date: '2017-09-01 23:59').where(game_type: 'HeroLeague').to_a
 ```
 
+Note: Filtering by player and hero is disabled on the server right now, so you cannot use it.
+
 #### Include Players
 
 Replays don't include its players per default. If you want to include players, use `with_players` (which is also chainable):
