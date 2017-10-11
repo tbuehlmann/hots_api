@@ -240,22 +240,6 @@ heroes = HotsApi.heroes.to_a # => [#<HotsApi::Models::Hero>, …]
 
 #### Finding a Single Map
 
-  "name": "Tomb of the Spider Queen",
-  "translations": [
-    "tumba de la reina araña",
-    "蛛后之墓",
-    "tumba da aranha rainha",
-    "거미 여왕의 무덤",
-    "tombe de la reine araignée",
-    "grabkammer der spinnenkönigin",
-    "grobowiec pajęczej królowej",
-    "tomba della regina ragno",
-    "гробница королевы пауков",
-    "蛛后墓",
-    "tomb of the spider queen"
-  ]
-},
-
 ```ruby
 map = HotsApi.maps.find('Tomb of the Spider Queen') # => #<HotsApi::Models::Map>
 map.name         # => 'Tomb of the Spider Queen'
