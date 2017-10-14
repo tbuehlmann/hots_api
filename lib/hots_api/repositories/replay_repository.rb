@@ -54,6 +54,7 @@ module HotsApi
       end
 
       def game_map=(map)
+        raise 'filtering by game map is currently deactivated on hotsapi.net'
         @where_values[:game_map] = map
       end
 

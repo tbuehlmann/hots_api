@@ -34,7 +34,7 @@ RSpec.describe 'API v1' do
       end
 
       it 'GET /replays?game_map=Hanamura returns replays' do
-        skip 'returns a 500 right now'
+        skip 'deactivated on hotsapi.net right now'
 
         replays = HTTP.get('https://hotsapi.net/api/v1/replays?game_map=Hanamura').parse
         expect(replays).to have_at_least(1).item
