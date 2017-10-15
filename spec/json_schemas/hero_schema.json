@@ -3,9 +3,9 @@
   "properties": {
     "name": {"type": "string"},
     "short_name": {"type": "string"},
-    "role": {"type": "string"},
-    "type": {"type": "string"},
-    "release_date": {"type": "string"},
+    "role": {"type": ["string", "null"]},
+    "type": {"type": ["string", "null"]},
+    "release_date": {"type": ["string", "null"]},
     "icon_url": {
       "type": "object",
       "properties": {

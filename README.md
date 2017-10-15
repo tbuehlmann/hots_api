@@ -35,6 +35,7 @@ replay.game_length  # => 872
 replay.game_map     # => 'Braxis Holdout'
 replay.game_type    # => 'HeroLeague'
 replay.game_version # => '2.27.1.56361'
+replay.bans         # => [['Dehaka', 'Anub'arak'], ['Sylvanas', 'Sonya']]
 replay.region       # => 2
 replay.processed    # => true
 replay.url          # => 'http://hotsapi.s3-website-eu-west-1.amazonaws.com/04e92942-7a46-f12c-24f6-65dcf4ea409f.StormReplay'

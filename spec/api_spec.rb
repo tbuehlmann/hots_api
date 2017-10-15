@@ -78,8 +78,8 @@ RSpec.describe 'API v1' do
       end
 
       it 'GET /replays/1 returns a replay' do
-        replays = HTTP.get('https://hotsapi.net/api/v1/replays/1').parse
-        expect(replays).to match_json_schema(:replay_with_players_schema, strict: true, clear_cache: true)
+        replay = HTTP.get('https://hotsapi.net/api/v1/replays/1').parse
+        expect(replay).to match_json_schema(:replay_with_players_schema, strict: true, clear_cache: true)
       end
     end
 

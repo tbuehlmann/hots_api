@@ -17,6 +17,7 @@ module HotsApi
       attribute :url, String
       attribute :created_at, Time
       attribute :updated_at, Time
+      attribute :bans, Array
       attribute :players, Array[Player]
 
       def reload
