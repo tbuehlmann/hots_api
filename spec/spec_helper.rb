@@ -20,7 +20,7 @@ RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
 
   config.json_schemas[:replay_schema] = 'spec/json_schemas/replay_schema.json'
-  config.json_schemas[:replay_with_players_schema] = 'spec/json_schemas/replay_with_players_schema.json'
+  config.json_schemas[:replay_with_players_and_bans_schema] = 'spec/json_schemas/replay_with_players_and_bans_schema.json'
   config.json_schemas[:map_schema] = 'spec/json_schemas/map_schema.json'
   config.json_schemas[:hero_schema] = 'spec/json_schemas/hero_schema.json'
 end

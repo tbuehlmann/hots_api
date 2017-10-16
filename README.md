@@ -115,7 +115,7 @@ Note: Filtering by player, hero and map is disabled on the server right now, so 
 
 #### Include Players
 
-Replays don't include its players per default. If you want to include players, use `with_players` (which is also chainable):
+Replays don't include its players and bans per default. If you want to include them, use `with_players` (which is also chainable):
 
 ```ruby
 replays = HotsApi.replays.with_players.to_a
@@ -214,6 +214,7 @@ HotsApi.replays.minimum_supported_build # => 43905
 hero = HotsApi.heroes.find('Tassadar') # => #<HotsApi::Models::Hero>
 hero.name         # => 'Tassadar'
 hero.short_name   # => 'tassadar'
+hero.attribute_id # => 'Tass'
 hero.role         # => 'Support'
 hero.type         # => 'Ranged'
 hero.release_date # => 2014-03-13

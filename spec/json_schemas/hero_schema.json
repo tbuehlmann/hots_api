@@ -3,6 +3,7 @@
   "properties": {
     "name": {"type": "string"},
     "short_name": {"type": "string"},
+    "attribute_id": {"type": "string"},
     "role": {"type": ["string", "null"]},
     "type": {"type": ["string", "null"]},
     "release_date": {"type": ["string", "null"]},

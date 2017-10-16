@@ -5,6 +5,7 @@ module HotsApi
     class Hero < Model
       attribute :name, String
       attribute :short_name, String
+      attribute :attribute_id, String
       attribute :role, String
       attribute :type, String
       attribute :release_date, Date
