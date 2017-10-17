@@ -62,8 +62,14 @@ RSpec.describe 'API v1' do
         end
       end
 
-      it 'GET /replays?player=Poma%232204 returns replays' do
-        skip 'deactivated on hotsapi.net right now'
+      it 'GET /replays?player=Poma%232204&with_players=1 returns replays', :focus do
+        replays = HTTP.get('https://hotsapi.net/api/v1/replays?player=Poma%232204&with_players=1').parse
+        expect(replays).to have_at_least(1).item
+
+        replays.each do |replay|
+          battletags = replay['players'].map { |player| player['battletag'] }
+          expect(battletags).to include('Poma#2204')
+        end
       end
 
       it 'GET /replays?hero=Tassadar returns replays' do

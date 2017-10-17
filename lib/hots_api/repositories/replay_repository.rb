@@ -67,7 +67,6 @@ module HotsApi
       end
 
       def player=(player)
-        raise 'filtering by player is currently deactivated on hotsapi.net'
         @where_values[:player] = player
       end
 
