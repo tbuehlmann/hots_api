@@ -256,6 +256,31 @@ map.translations # => ['tumba de la reina araña', '蛛后之墓', 'tumba da ara
 map = HotsApi.maps.to_a # => [#<HotsApi::Models::Map>, …]
 ```
 
+## Finding Talents
+
+#### Finding a Single Talent
+
+```ruby
+talent = HotsApi.talents.find('MalfurionRevitalizeInnervateTalent') # => #<HotsApi::Models::Talent>
+talent.name        # => 'MalfurionRevitalizeInnervateTalent'
+talent.title       # => 'Revitalize'
+talent.description # => 'Using Innervate also grants Malfurion 50 Mana and causes his Cooldowns to refresh 50% faster for 5 seconds.'
+talent.icon        # => 'storm_ui_icon_malfurion_innerrvate.png'
+talent.icon_url    # => {'64x64' => 'http://s3.hotsapi.net/img/talents/64x64/storm_ui_icon_malfurion_innerrvate.png'}
+talent.ability     # => 'D1'
+talent.sort        # => 3
+talent.cooldown    # => nil
+talent.mana_cost   # => nil
+talent.level       # => 16
+talent.heroes      # => ['Malfurion']
+```
+
+#### Finding Talents
+
+```ruby
+map = HotsApi.talents.to_a # => [#<HotsApi::Models::Talent>, …]
+```
+
 ## Rate Limiting
 
 The API probably uses some kind of leaky bucket algorithm for rate limiting. It allows for 300 requests in a short period of time and refills this pool of available requests every other second.

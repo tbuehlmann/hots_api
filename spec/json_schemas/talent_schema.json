@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "title": {"type": ["string", "null"]},
+    "description": {"type": ["string", "null"]},
+    "icon": {"type": ["string", "null"]},
+    "icon_url": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "64x64": {"type": "string"}
+          }
+        },
+        {"type": "array", "required": []} // if the icon_url is not set, it's an empty array.
+      ]
+    },
+    "ability": {"type": ["string", "null"]},
+    "sort": {"type": ["number", "null"]},
+    "cooldown": {"type": ["number", "null"]},
+    "mana_cost": {"type": "null"},
+    "level": {"type": ["number", "null"]},
+    "heroes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

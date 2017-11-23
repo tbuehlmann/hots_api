@@ -23,4 +23,5 @@ RSpec.configure do |config|
   config.json_schemas[:replay_with_players_and_bans_schema] = 'spec/json_schemas/replay_with_players_and_bans_schema.json'
   config.json_schemas[:map_schema] = 'spec/json_schemas/map_schema.json'
   config.json_schemas[:hero_schema] = 'spec/json_schemas/hero_schema.json'
+  config.json_schemas[:talent_schema] = 'spec/json_schemas/talent_schema.json'
 end

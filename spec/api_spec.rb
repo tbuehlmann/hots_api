@@ -62,7 +62,7 @@ RSpec.describe 'API v1' do
         end
       end
 
-      it 'GET /replays?player=Poma%232204&with_players=1 returns replays', :focus do
+      it 'GET /replays?player=Poma%232204&with_players=1 returns replays' do
         replays = HTTP.get('https://hotsapi.net/api/v1/replays?player=Poma%232204&with_players=1').parse
         expect(replays).to have_at_least(1).item
 
@@ -149,6 +149,20 @@ RSpec.describe 'API v1' do
     it 'GET /maps/Hanamura returns a map' do
       heroes = HTTP.get('https://hotsapi.net/api/v1/maps/Hanamura').parse
       expect(heroes).to match_json_schema(:map_schema, strict: true, clear_cache: true)
+    end
+  end
+
+  describe 'talents' do
+    it 'GET /talents returns talents' do
+      talents = HTTP.get('https://hotsapi.net/api/v1/talents').parse
+
+      expect(talents).to have_at_least(1).item
+      expect(talents).to match_json_schema(:talent_schema, strict: true, list: true, clear_cache: true)
+    end
+
+    it 'GET /talents/MalfurionRevitalizeInnervateTalent returns a talent' do
+      heroes = HTTP.get('https://hotsapi.net/api/v1/talents/MalfurionRevitalizeInnervateTalent').parse
+      expect(heroes).to match_json_schema(:talent_schema, strict: true, clear_cache: true)
     end
   end
 

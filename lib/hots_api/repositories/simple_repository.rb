@@ -46,6 +46,12 @@ module HotsApi
       def collection_path
         raise NotImplementedError
       end
+
+      private
+
+      def instantiate_record_with(attributes)
+        raise NotImplementedError
+      end
     end
   end
 end

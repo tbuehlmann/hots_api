@@ -12,12 +12,14 @@ require_relative 'hots_api/models/score'
 require_relative 'hots_api/models/player'
 require_relative 'hots_api/models/replay'
 require_relative 'hots_api/models/uploaded_replay'
+require_relative 'hots_api/models/talent'
 
 require_relative 'hots_api/repositories/repository'
 require_relative 'hots_api/repositories/simple_repository'
 require_relative 'hots_api/repositories/hero_repository'
 require_relative 'hots_api/repositories/map_repository'
 require_relative 'hots_api/repositories/replay_repository'
+require_relative 'hots_api/repositories/talent_repository'
 
 module HotsApi
   def self.fetcher
@@ -42,5 +44,9 @@ module HotsApi
 
   def self.maps
     Repositories::MapRepository.new
+  end
+
+  def self.talents
+    Repositories::TalentRepository.new
   end
 end
