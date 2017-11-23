@@ -283,9 +283,9 @@ map = HotsApi.talents.to_a # => [#<HotsApi::Models::Talent>, …]
 
 ## Rate Limiting
 
-The API probably uses some kind of leaky bucket algorithm for rate limiting. It allows for 300 requests in a short period of time and refills this pool of available requests every other second.
+The API uses some kind of leaky bucket algorithm for rate limiting. It allows for a certain amount of requests in a given period of time and refills this pool of available requests every other second. The number of available requests depends on the resource you're requesting.
 
-When the client requests the API and hits the request rate limit, it will sleep for 0.5 seconds and try again after that. It will retry 9 times for a given query. If it hits the rate limit on its last try, it will raise a `HotsApi::Fetcher::ApiLimitReachedError`.
+When the client requests the API and hits the request rate limit, it will sleep for a second and try again after that. It will retry 9 times for a given query. If it hits the rate limit on its last try, it will raise a `HotsApi::Fetcher::ApiLimitReachedError`.
 
 ## Development
 
