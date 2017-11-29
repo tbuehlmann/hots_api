@@ -30,4 +30,8 @@ RSpec.describe HotsApi do
   it '.maps returns a map repository' do
     expect(subject.maps).to be_a(subject::Repositories::MapRepository)
   end
+
+  it '.talents returns a talent repository' do
+    expect(subject.talents).to be_a(subject::Repositories::TalentRepository)
+  end
 end

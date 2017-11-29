@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe HotsApi::Repositories::ReplayRepository do
+RSpec.describe HotsApi::Repositories::ReplayRepository, :sleep do
   describe '#trigger_hotslogs_upload' do
     it 'returns true if a replay with the fingerprint was uploaded' do
       expect(subject.trigger_hotslogs_upload('725ba498-2728-26d3-b6ac-11129c55b212')).to eq(true)

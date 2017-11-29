@@ -6,6 +6,12 @@ Bundler.require
 RSpec.configure do |config|
   config.include JSON::SchemaMatchers
 
+  # Sleep before running an example for not hitting API rate limiting
+  config.around do |example|
+    sleep 2 if example.metadata[:sleep]
+    example.run
+  end
+
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = '.rspec_status'
 

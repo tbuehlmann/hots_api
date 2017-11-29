@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 # These specs make sure we're up to date with API responses
-RSpec.describe 'API v1' do
+RSpec.describe 'API v1', :sleep do
   describe 'replays' do
     it 'GET /replays returns replays' do
       replays = HTTP.get('https://hotsapi.net/api/v1/replays').parse
